@@ -21,7 +21,9 @@ WebUI.click(findTestObject('Menu/Club/Schaakstellingen map/Schaakstellingen'))
 
 WebUI.mouseOver(findTestObject('Menu/Club/Schaakstellingen map/Spaans stelling'))
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club/Schaakstellingen map/Tooltip'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Menu/Club/Schaakstellingen map/Tooltip'), 0)
 
 WebUI.click(findTestObject('Menu/Club/Schaakstellingen map/Stelling bekijken'))
+
+WebUI.verifyElementPresent(findTestObject('Menu/Club/Schaakstellingen map/Tooltip'), 0)
 
