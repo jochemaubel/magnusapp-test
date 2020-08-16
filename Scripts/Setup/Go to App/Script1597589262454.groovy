@@ -14,17 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://devapp.magnusapp.nl/activities')
+switch (GlobalVariable.Environment) {
+    case 'Local':
+        WebUI.navigateToUrl(GlobalVariable.BaseUrlLocal)
 
-WebUI.click(findTestObject('Object Repository/Page_Magnus Club App/a_Wachtwoord vergeten'))
+        break
+    default:
+        WebUI.navigateToUrl(GlobalVariable.BaseUrlTest)
 
-WebUI.setText(findTestObject('Page_Magnus Club App/input_E-mailadres_email'), 'jochem.aubel@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/Page_Magnus Club App/span_Verzenden'))
-
-WebUI.closeBrowser()
+        break
+}
 

@@ -14,14 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Setup/Go to App'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.BaseUrlTest)
+WebUI.click(findTestObject('Object Repository/Page_Magnus Club App/a_Wachtwoord vergeten'))
 
-WebUI.setText(findTestObject('Page_Magnus Club App/input_E-mailadres_email'), 'trainer@schaakclub.nl')
+WebUI.setText(findTestObject('Page_Magnus Club App/input_E-mailadres_email'), 'jochem.aubel@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Magnus Club App/input_Wachtwoord_password'), 'p20GsOAi2SBlgFd1BQ5orQ==')
+WebUI.click(findTestObject('Object Repository/Page_Magnus Club App/span_Verzenden'))
 
-WebUI.click(findTestObject('Algemeen/Login button'))
+WebUI.closeBrowser()
 

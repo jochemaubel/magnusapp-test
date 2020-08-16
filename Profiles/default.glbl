@@ -4,4 +4,24 @@
    <name>Default</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Local'</initValue>
+      <name>Environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://test.devapp.magnusapp.nl/'</initValue>
+      <name>BaseUrlTest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://localhost:3000'</initValue>
+      <name>BaseUrlLocal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staff@schaakclub.nl'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -23,5 +23,5 @@ WebUI.setText(findTestObject('Page_Magnus Club App/input_E-mailadres_email'), 't
 
 WebUI.setEncryptedText(findTestObject('Page_Magnus Club App/input_Wachtwoord_password'), 'p20GsOAi2SBlgFd1BQ5orQ==')
 
-WebUI.click(findTestObject('Page_Magnus Club App/span_Log in'))
+WebUI.click(findTestObject('Algemeen/Login button'))
 

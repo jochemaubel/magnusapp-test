@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Log in</name>
+   <name>Login button</name>
    <tag></tag>
    <elementGuidId>142ae802-4836-4d22-913b-06f3841789d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/form/div/div[3]/button/span</value>
+         <value>//button//*[normalize-space() = &quot;Log in&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
