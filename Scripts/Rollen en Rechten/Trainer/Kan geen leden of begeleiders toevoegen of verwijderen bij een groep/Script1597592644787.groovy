@@ -19,15 +19,7 @@ WebUI.callTestCase(findTestCase('Inloggen/Inloggen trainer'), [:], FailureHandli
 
 WebUI.click(findTestObject('Menu/Club/Groepen/Competitiegroepen'))
 
-WebUI.click(findTestObject('Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextNotPresent('Archiveer', false)
-
-WebUI.click(findTestObject('Algemeen/Back Button'))
+WebUI.click(findTestObject('Menu/Club/Groepen/TEST competitiegroep'))
 
 WebUI.verifyElementNotPresent(findTestObject('Algemeen/Toevoegen'), 0)
-
-WebUI.click(findTestObject('Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextNotPresent('Wijzig groepsinstellingen', false)
 

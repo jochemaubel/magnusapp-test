@@ -17,17 +17,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Inloggen/Inloggen trainer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Groepen/Competitiegroepen'))
+WebUI.click(findTestObject('Menu/Club/Activiteiten'))
 
-WebUI.click(findTestObject('Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Activiteiten/TEST training'))
 
-WebUI.verifyTextNotPresent('Archiveer', false)
+WebUI.click(findTestObject('Algemeen/Aanmeldknop'))
+
+WebUI.verifyTextPresent('Huub is aangemeld', false)
+
+WebUI.click(findTestObject('Algemeen/Aanmeldknop'))
 
 WebUI.click(findTestObject('Algemeen/Back Button'))
 
-WebUI.verifyElementNotPresent(findTestObject('Algemeen/Toevoegen'), 0)
+WebUI.click(findTestObject('Activiteiten/TEST competitie'))
 
-WebUI.click(findTestObject('Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextNotPresent('Wijzig groepsinstellingen', false)
+WebUI.verifyElementNotPresent(findTestObject('Algemeen/Aanmeldknop'), 0)
 

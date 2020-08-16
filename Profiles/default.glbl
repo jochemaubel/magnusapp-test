@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Local'</initValue>
+      <initValue>'Test'</initValue>
       <name>Environment</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
