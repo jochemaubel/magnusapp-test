@@ -6,11 +6,11 @@
    <elementGuidId>dd3f4843-009d-488b-afd1-4ac958a1e252</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[contains(@class, 'MuiContainer-root')]//li[1]//button | //div[contains(@class, 'MuiContainer-root')]//li[1]//a)[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Aad (Aanmeldtafel)'])[1]/following::*[name()='svg'][2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

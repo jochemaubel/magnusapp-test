@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Activiteiten/TEST clubavond vrijdag'))
 
 WebUI.verifyElementPresent(findTestObject('Menu/Club/Registratie'), 0)
 
-WebUI.click(findTestObject('Algemeen/BackButton'))
+WebUI.click(findTestObject('Algemeen/Back Button'))
 
 WebUI.click(findTestObject('Activiteiten/TEST competitie'))
 
