@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Inloggen</name>
+   <name>5.2a Doorklikken op een aanmeldactiviteit</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1c102104-314d-40e0-a8b2-e22047f5fe77</testCaseGuid>
+   <testCaseGuid>b9d73c38-15ca-4637-9ce0-d33f4436df15</testCaseGuid>
 </TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Stelling bekijken</name>
+   <name>Stelling verwijderen</name>
    <tag></tag>
-   <elementGuidId>7b66625d-9b13-45fb-82aa-7c606284dadc</elementGuidId>
+   <elementGuidId>8c09d29d-1187-48c6-9862-d2f728022230</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'MuiContainer-root')]//ul[2]//li[1]//button</value>
+         <value>//div[contains(@class, 'MuiContainer-root')]//ul//li/div[2]/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

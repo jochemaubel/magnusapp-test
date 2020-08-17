@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Inloggen</name>
+   <name>6.4b TODO Geen andere stelling bewerken of verwijderen</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1c102104-314d-40e0-a8b2-e22047f5fe77</testCaseGuid>
+   <testCaseGuid>fc04fc13-689d-4da9-b600-10237c7dd851</testCaseGuid>
 </TestCaseEntity>

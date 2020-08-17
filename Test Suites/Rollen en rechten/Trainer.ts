@@ -11,105 +11,189 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>a9ee299d-6de0-4bb2-8d4e-176ff4ae4076</testSuiteGuid>
    <testCaseLink>
-      <guid>93c3bd17-66a4-43ef-9692-ed5d7a82ddb2</guid>
+      <guid>36f1b38b-94b3-4d02-bcb7-555131ce11f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan niet detailgegevens en schaakaccounts zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu/1a. Kan clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4f6675fa-a643-4dbe-9d46-66684ed83e63</guid>
+      <guid>db5f0eb7-f73b-4754-9914-4c86286bb9ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Alle activiteiten zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1a. Alle leden in ledenoverzicht zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>93fede15-8903-41c5-9255-9cbde419f29e</guid>
+      <guid>5fb533a6-7e67-456b-aced-177d93cbc080</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan alle stellingen zien maar allen die van zichzelf bewerken en verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.2a. Vanuit ledeoverzicht doorklikken naar lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>706f2b6e-ff73-449a-b410-9e84a89bf773</guid>
+      <guid>568faadb-1f93-4cd4-907a-e7a0efc12324</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Menu zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.3b. Geen leden toevoegen, bewerken of archiveren</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>98438de9-5c67-403c-a3e6-b794774b67f4</guid>
+      <guid>3fcceff4-cda6-4935-a4b6-75b3db420e1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan doorklikken op een aanmeldactiviteit</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.4b Geen detailgegevens en schaakaccounts van leden zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>85df43ef-6422-4175-b26f-e5206e3533af</guid>
+      <guid>bcf448dc-a0c3-4ae5-aa58-4d7c363c4ba8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan niet op een stelling doorklikken die niet van hem is</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.1a Alle groepen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>efd928ca-9596-4c7e-952f-1e38e1f2e23d</guid>
+      <guid>7b96ab65-5f2d-4cd4-9955-0e26cbe0eb0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Vanuit activiteit doorklikken op lid</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.2b Geen groepen toevoegen, bewerken of archiveren</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5aa41c2b-9730-4a87-a9b3-6dbb331922d6</guid>
+      <guid>4eca0f01-c487-471e-a2a5-b1004bde71cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan training zien bij activiteit</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.3b Geen leden of begeleiders toevoegen of verwijderen bij een groep</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c73d1d66-0768-4ff7-aa4b-84679f38af0f</guid>
+      <guid>6fa29d13-e5af-44dc-922e-48f957409cdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan alle aanmeldtafel activiteiten zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.4a Vanuit groep doorklikken naar lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b8dbbda3-6c58-4470-aef8-f6d7de91f160</guid>
+      <guid>b16aba5a-5a67-4bce-a2e9-0f4270d89639</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Vanuit groep doorklikken naar lid</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.1a Alle activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ef9cc0d-fb5b-4daf-9178-f29bf038296a</guid>
+      <guid>f10028b9-4016-4d03-b4a8-c49351de42dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan groepen zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.2b Geen activiteiten toevoegen, aanpassen of verwijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>479ee42b-a0eb-438d-84f2-794223682aef</guid>
+      <guid>a423c220-59ae-43b1-af33-442c034def9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan niet groepen toevoegen editen of archiveren</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.3a Doorklikken naar activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>45747b11-bb46-439b-a2b6-24bff7c62894</guid>
+      <guid>0dd5f6e4-0cde-4967-b6be-c23b9b6766da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Doorklikken naar lid</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.4a Vanuit activiteit doorklikken op lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>edd0e4a7-0ef5-40aa-982b-48778bd18a71</guid>
+      <guid>75cae403-c6db-41db-a097-e45041f27d7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Lid niet toevoegen of archiveren of bewerken</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.5a Leden aan- en afmelden bij eigen activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>481829fb-876e-4d76-82d7-0d4603c519c7</guid>
+      <guid>589afe3d-4349-4c65-bc54-0ca74b4e63c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Doorklikken naar activiteit</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6b TODO Geen leden aan- en afmelden bij andere activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>99198c46-f4fe-438d-87e2-d61e218491fd</guid>
+      <guid>88f4abe4-2a8f-4fd8-8f31-8a76890a1ff5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Alle leden in ledenoverzicht zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.7a. Training zien bij activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eee2cc8a-8a80-4630-8ffe-3ac9bd4949bb</guid>
+      <guid>b8faf9a7-adc5-4502-8cd4-60d1603e9066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/Trainer/Kan niemand aanmelden of afmelden</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.8a TODO Training toevoegen, bewerken of verwijderen bij eigen activiteit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f5f4fe3-8c85-4796-90dd-c974fd4d6d6a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.9b TODO Geen training toevoegen, bewerken of verwijderen bij andere activiteiten</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcd34bc7-45f7-4859-8445-fb0850d1db0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/5. Aanmeldtafel/5.1a Alle aanmeldtafel activiteiten zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1cde88c1-5f25-464a-b64d-d83fcba9b531</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/5. Aanmeldtafel/5.2a Doorklikken op een aanmeldactiviteit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bb9ccc2-e550-467b-a5e5-21e1b3002f0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/5. Aanmeldtafel/5.3b Geen leden aanmelden of afmelden</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa6255ab-6c9a-4175-8970-ab2b719949ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.1a TODO splitsen - Alle stellingen zien maar alleen die van zichzelf bewerken en verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f87692f7-96a6-44cf-9233-76b22f39837b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.2a TODO Stelling toevoegen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5f62d47-4b9f-4629-9d56-e418d904e954</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.3a TODO Eigen stelling bewerken of verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bdc8ecd-d38c-40b4-b2f8-391df0bf842a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.4b TODO Geen andere stelling bewerken of verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41185f71-3e03-49ea-8e3f-8dd86ae9f3a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/Kan niet op een stelling doorklikken die niet van hem is</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a03ad552-87ae-409b-b41f-8eb0a4f0ce05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.1a TODO Alle trainingen zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96c6db65-8754-484a-ac86-e62965c83177</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a TODO Doorklikken naar een training</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4860f11-7588-43c4-907a-657638205cd0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.3a TODO Training toevoegen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>005d86cb-089b-476b-b141-0f0261f263fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.4a TODO Eigen training bewerken of verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e51c3c7-8ff2-4ac3-be5f-bc41ad611a79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.5b TODO Geen andere training bewerken of verwijderen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
