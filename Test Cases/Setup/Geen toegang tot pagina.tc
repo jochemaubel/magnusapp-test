@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Go to App</name>
+   <name>Geen toegang tot pagina</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d69fe5ed-0980-4770-a27d-005bf70d1ff1</testCaseGuid>
+   <testCaseGuid>4836a6bc-d276-49a9-94ff-45235118a87c</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>84fcda33-006e-4e69-bde3-eb406f5bd41f</id>
+      <id>1d6883aa-9297-4231-9113-c136335104fb</id>
       <masked>false</masked>
       <name>url</name>
    </variable>

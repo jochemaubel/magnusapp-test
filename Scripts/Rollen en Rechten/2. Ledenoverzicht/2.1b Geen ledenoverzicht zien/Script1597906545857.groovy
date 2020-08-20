@@ -15,11 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Go to App'), [('url') : url], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/members'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Magnus Club App/input_E-mailadres_email'), GlobalVariable.Email)
-
-WebUI.setEncryptedText(findTestObject('Page_Magnus Club App/input_Wachtwoord_password'), 'p20GsOAi2SBlgFd1BQ5orQ==')
-
-WebUI.click(findTestObject('Algemeen/Login button'))
+WebUI.closeBrowser()
 

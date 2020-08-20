@@ -24,4 +24,9 @@
       <initValue>'staff@schaakclub.nl'</initValue>
       <name>Email</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Je hebt geen toegang tot deze pagina.'</initValue>
+      <name>NoAccess</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

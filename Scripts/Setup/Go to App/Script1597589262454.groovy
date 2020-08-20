@@ -19,11 +19,11 @@ WebUI.openBrowser('')
 
 switch (GlobalVariable.Environment) {
     case 'Local':
-        WebUI.navigateToUrl(GlobalVariable.BaseUrlLocal)
+        WebUI.navigateToUrl(GlobalVariable.BaseUrlLocal + url)
 
         break
     default:
-        WebUI.navigateToUrl(GlobalVariable.BaseUrlTest)
+        WebUI.navigateToUrl(GlobalVariable.BaseUrlTest + url)
 
         break
 }

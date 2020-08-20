@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club menu'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Menu/Club menu'), 0)
+
+WebUI.closeBrowser()
 

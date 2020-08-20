@@ -6,12 +6,11 @@
    <elementGuidId>35e79fe5-71b9-4b4d-b1ce-c1e16ad3ac9d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//ul//*[normalize-space()='Club']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul//*[normalize-space() = 'Aanmeldtafel']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

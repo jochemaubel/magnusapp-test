@@ -14,7 +14,7 @@
       <guid>36f1b38b-94b3-4d02-bcb7-555131ce11f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu/1a. Kan clubmenu zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu/1a. Clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>db5f0eb7-f73b-4754-9914-4c86286bb9ee</guid>
