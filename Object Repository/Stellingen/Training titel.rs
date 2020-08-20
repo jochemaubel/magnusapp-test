@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toevoegen</name>
+   <name>Training titel</name>
    <tag></tag>
-   <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
+   <elementGuidId>6b1cb3f2-819f-4baa-b67b-0a36aea03fd3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@name='positionName']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toevoegen</name>
+   <name>Verwijderknop</name>
    <tag></tag>
-   <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
+   <elementGuidId>658bcb4b-9f1d-4a9b-a85c-37fa7446de3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
+         <value>//button//*[normalize-space() = &quot;Verwijder&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

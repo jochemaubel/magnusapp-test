@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toevoegen</name>
+   <name>Dropdown verwijder knop</name>
    <tag></tag>
-   <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
+   <elementGuidId>1100edef-a978-41af-b619-b934f095cde7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
+         <value>//button[@title='Clear']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

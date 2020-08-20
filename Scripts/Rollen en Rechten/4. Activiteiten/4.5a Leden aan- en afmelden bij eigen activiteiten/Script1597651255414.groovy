@@ -27,9 +27,5 @@ WebUI.verifyTextPresent('Huub is aangemeld', false)
 
 WebUI.click(findTestObject('Algemeen/Aanmeldknop'))
 
-WebUI.click(findTestObject('Algemeen/Back Button'))
-
-WebUI.click(findTestObject('Activiteiten/TEST competitie'))
-
-WebUI.verifyElementNotPresent(findTestObject('Algemeen/Aanmeldknop'), 0)
+WebUI.closeBrowser()
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toevoegen</name>
+   <name>TEST training selecteer training</name>
    <tag></tag>
-   <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
+   <elementGuidId>1bd1938f-4387-41cc-b961-739a2c629353</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
+         <value>//button//*[normalize-space() = &quot;Selecteer een training&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

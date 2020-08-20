@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toevoegen</name>
+   <name>TEST stelling</name>
    <tag></tag>
-   <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
+   <elementGuidId>11a30af5-beda-4ae4-861a-1b97947fd1b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li//*[normalize-space() = 'TEST stelling']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

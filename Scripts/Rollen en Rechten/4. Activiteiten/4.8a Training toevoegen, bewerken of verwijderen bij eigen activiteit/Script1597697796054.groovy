@@ -14,12 +14,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Rollen en Rechten/4. Activiteiten/4.7a. Training zien bij activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Activiteiten'))
+WebUI.click(findTestObject('Object Repository/Activiteiten/TEST training selecteer training'))
 
-WebUI.click(findTestObject('Activiteiten/Test training'))
+WebUI.setText(findTestObject('Activiteiten/Kies een training dropdown'), 'Koningsaanval')
 
-WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.click(findTestObject('Algemeen/Bewerken'))
+
+WebUI.mouseOver(findTestObject('Activiteiten/Kies een training dropdown'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Algemeen/Dropdown verwijder knop'))
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
 

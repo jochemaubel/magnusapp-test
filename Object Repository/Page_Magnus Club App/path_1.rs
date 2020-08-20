@@ -24,13 +24,13 @@
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z</value>
+      <value>M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/header[@class=&quot;MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary jss28 mui-fixed MuiPaper-elevation4&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular jss29 MuiToolbar-gutters&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeLarge&quot;]/path[1]</value>
+      <value>id(&quot;tabpanel-1&quot;)/div[@class=&quot;MuiContainer-root jss91 MuiContainer-maxWidthLg&quot;]/div[@class=&quot;MuiBox-root jss161&quot;]/div[@class=&quot;MuiBox-root jss174&quot;]/button[@class=&quot;MuiButtonBase-root MuiFab-root MuiFab-primary&quot;]/span[@class=&quot;MuiFab-label&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]/path[1]</value>
    </webElementProperties>
 </WebElementEntity>

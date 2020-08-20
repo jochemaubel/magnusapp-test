@@ -19,7 +19,9 @@ WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_
 
 WebUI.click(findTestObject('Menu/Club/Activiteiten'))
 
-WebUI.click(findTestObject('Activiteiten/Test training'))
+WebUI.verifyElementNotPresent(findTestObject('Algemeen/Toevoegen'), 0)
 
-WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Activiteiten/Bewerk TEST clubavond vrijdag'), 0)
+
+WebUI.verifyElementNotPresent(findTestObject('Activiteiten/Verwijder TEST clubavond vrijdag'), 0)
 

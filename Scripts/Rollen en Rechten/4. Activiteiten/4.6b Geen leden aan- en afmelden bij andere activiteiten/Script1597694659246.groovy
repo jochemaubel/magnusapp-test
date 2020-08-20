@@ -19,7 +19,9 @@ WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_
 
 WebUI.click(findTestObject('Menu/Club/Activiteiten'))
 
-WebUI.click(findTestObject('Activiteiten/Test training'))
+WebUI.click(findTestObject('Activiteiten/TEST competitie'))
 
-WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Algemeen/Aanmeldknop'), 0)
+
+WebUI.closeBrowser()
 

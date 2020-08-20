@@ -14,12 +14,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Activiteiten'))
+WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
 
-WebUI.click(findTestObject('Activiteiten/Test training'))
+WebUI.click(findTestObject('Algemeen/Toevoegen'))
 
-WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Stellingen/Training titel'), 'NIEUWE stelling')
+
+WebUI.click(findTestObject('Stellingen/Plak FEN-string'))
+
+WebUI.setText(findTestObject('Stellingen/Input FEN-string'), 'k7/5ppp/8/8/8/8/5PPP/K7 w - - 0 1')
+
+WebUI.click(findTestObject('Algemeen/Toepassenknop'))
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.verifyTextPresent('De stelling is opgeslagen.', false)
+
+WebUI.click(findTestObject('Stellingen/NIEUWE stelling'))
+
+WebUI.setText(findTestObject('Stellingen/Training titel'), ' (bewerkt)')
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.verifyTextPresent('De stelling is opgeslagen.', false)
+
+WebUI.mouseOver(findTestObject('Stellingen/BEWERKTE stelling'))
+
+WebUI.click(findTestObject('Stellingen/Bewerkte stelling verwijderen'))
+
+WebUI.click(findTestObject('Algemeen/Verwijderknop'))
+
+WebUI.verifyTextPresent('De stelling is verwijderd.', false)
 

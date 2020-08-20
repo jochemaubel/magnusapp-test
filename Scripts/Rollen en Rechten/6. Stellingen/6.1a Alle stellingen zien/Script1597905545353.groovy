@@ -17,9 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Activiteiten'))
+WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
 
-WebUI.click(findTestObject('Activiteiten/Test training'))
+WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
 
-WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Stellingen/Tooltip'), 0)
+
+WebUI.click(findTestObject('Stellingen/Stelling bekijken'))
+
+WebUI.verifyElementPresent(findTestObject('Stellingen/Tooltip'), 0)
+
+WebUI.verifyTextNotPresent('Bewerk stelling', false)
+
+WebUI.verifyTextNotPresent('Verwijder', false)
 
