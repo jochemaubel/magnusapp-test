@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Stelling verwijderen</name>
+   <name>TEST stelling verwijderen</name>
    <tag></tag>
-   <elementGuidId>8c09d29d-1187-48c6-9862-d2f728022230</elementGuidId>
+   <elementGuidId>8ceff3ae-c7d4-460f-aee9-38e28eccd9da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'MuiContainer-root')]//ul//li/div[2]/button[2]</value>
+         <value>//*[@data-testid = 'delete-position-4']</value>
       </entry>
       <entry>
          <key>BASIC</key>

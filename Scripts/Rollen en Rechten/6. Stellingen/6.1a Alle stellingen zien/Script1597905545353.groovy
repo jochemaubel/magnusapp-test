@@ -19,15 +19,23 @@ WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_
 
 WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
 
+WebUI.mouseOver(findTestObject('Stellingen/TEST stelling'))
+
+WebUI.click(findTestObject('Stellingen/TEST stelling bewerken'))
+
+WebUI.click(findTestObject('Algemeen/Annuleerknop'))
+
+WebUI.click(findTestObject('Stellingen/TEST stelling verwijderen'))
+
+WebUI.click(findTestObject('Algemeen/Annuleerknop'))
+
 WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
 
 WebUI.verifyElementNotPresent(findTestObject('Stellingen/Tooltip'), 0)
 
-WebUI.click(findTestObject('Stellingen/Stelling bekijken'))
+WebUI.click(findTestObject('Stellingen/Spaans stelling bekijken'))
 
 WebUI.verifyElementPresent(findTestObject('Stellingen/Tooltip'), 0)
 
-WebUI.verifyTextNotPresent('Bewerk stelling', false)
-
-WebUI.verifyTextNotPresent('Verwijder', false)
+WebUI.closeBrowser()
 

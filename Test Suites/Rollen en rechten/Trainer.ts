@@ -71,10 +71,10 @@
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.1a Alle activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f10028b9-4016-4d03-b4a8-c49351de42dd</guid>
+      <guid>975fd420-0cbc-4215-84a4-359b4989b75d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.2a Activiteiten toevoegen, aanpassen of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.2b Geen activiteiten toevoegen, aanpassen of verwijderen - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a423c220-59ae-43b1-af33-442c034def9a</guid>
@@ -146,7 +146,7 @@
       <guid>41185f71-3e03-49ea-8e3f-8dd86ae9f3a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.3b Niet een andere stelling bewerken of verijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.3b Niet een andere stelling bewerken of verwijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a03ad552-87ae-409b-b41f-8eb0a4f0ce05</guid>

@@ -23,9 +23,11 @@ WebUI.click(findTestObject('Stellingen/Spaans stelling'))
 
 WebUI.verifyTextNotPresent('Bewerk stelling', false)
 
-WebUI.click(findTestObject('Stellingen/TEST stelling'))
+WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
 
-WebUI.verifyTextPresent('Bewerk stelling', false)
+WebUI.verifyElementNotPresent(findTestObject('Stellingen/Spaans stelling bewerken'), 0)
 
-WebUI.click(findTestObject('Algemeen/Annuleerknop'))
+WebUI.verifyElementNotPresent(findTestObject('Stellingen/Spaans stelling verwijderen'), 0)
+
+WebUI.closeBrowser()
 

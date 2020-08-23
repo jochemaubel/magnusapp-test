@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Stelling bewerken</name>
+   <name>TEST stelling bewerken</name>
    <tag></tag>
-   <elementGuidId>10dd713e-cca5-419e-b8cf-80bfa1aedad2</elementGuidId>
+   <elementGuidId>74cb9f4e-e119-4c52-a1f1-56c60ae5ab8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'MuiContainer-root')]//ul//li/div[2]/button[1]
-</value>
+         <value>//*[@data-testid = 'edit-position-4']</value>
       </entry>
       <entry>
          <key>BASIC</key>

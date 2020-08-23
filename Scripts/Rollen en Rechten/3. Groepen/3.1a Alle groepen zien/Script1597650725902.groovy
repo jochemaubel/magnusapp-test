@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Menu/Club/Groepen/Externe competitie'))
 
 WebUI.verifyElementPresent(findTestObject('Menu/Club/Groepen/TEST magnus team'), 0)
 
+WebUI.closeBrowser()
+

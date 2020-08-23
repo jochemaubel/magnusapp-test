@@ -50,3 +50,5 @@ WebUI.click(findTestObject('Algemeen/Verwijderknop'))
 
 WebUI.verifyTextPresent('De stelling is verwijderd.', false)
 
+WebUI.closeBrowser()
+

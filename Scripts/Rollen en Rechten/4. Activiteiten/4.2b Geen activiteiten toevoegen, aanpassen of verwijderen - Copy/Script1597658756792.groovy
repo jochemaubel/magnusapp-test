@@ -25,3 +25,5 @@ WebUI.verifyElementNotPresent(findTestObject('Activiteiten/Bewerk TEST clubavond
 
 WebUI.verifyElementNotPresent(findTestObject('Activiteiten/Verwijder TEST clubavond vrijdag'), 0)
 
+WebUI.closeBrowser()
+
