@@ -164,6 +164,6 @@
       <guid>6e51c3c7-8ff2-4ac3-be5f-bc41ad611a79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.3b TODO Geen andere training bewerken of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.3b Geen andere training bewerken of verwijderen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

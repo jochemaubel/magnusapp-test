@@ -15,33 +15,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu/Club/Trainingen'))
-
-WebUI.click(findTestObject('Algemeen/Toevoegen'))
-
-WebUI.setText(findTestObject('Trainingen/Trainingsnaam input'), 'NIEUWE training')
-
-WebUI.click(findTestObject('Algemeen/Toevoegenknop'))
-
-not_run: WebUI.click(findTestObject('Trainingen/Voeg stelling toe'))
-
-not_run: WebUI.click(findTestObject('Stellingen/Spaans stelling'))
-
-not_run: WebUI.click(findTestObject('Algemeen/Opslaanknop'))
-
-not_run: WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
-
-WebUI.click(findTestObject('Algemeen/Back Button'))
-
-not_run: WebUI.mouseOver(findTestObject('Trainingen/NIEUWE training'))
-
-not_run: WebUI.click(findTestObject('Trainingen/NIEUWE training verwijderen'))
-
-not_run: WebUI.click(findTestObject('Algemeen/Verwijderknop'))
-
-not_run: WebUI.verifyTextPresent('De training is verwijderd', false)
-
-WebUI.closeBrowser()
-

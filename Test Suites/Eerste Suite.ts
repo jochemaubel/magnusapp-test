@@ -20,13 +20,13 @@
       <guid>b59198ac-b1b1-4f61-a94d-53c18135bb8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/aanmeldtafel/aanwezig-afwezig</testCaseId>
+      <testCaseId>Test Cases/Aanmeldtafel/aanwezig-afwezig</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8e0b9ce-f3fb-4530-988c-5af26df42786</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/aanmeldtafel/Naam Zoeken</testCaseId>
+      <testCaseId>Test Cases/Aanmeldtafel/Naam Zoeken</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>966fb8d3-5ce3-4e82-af84-7f8102d1260e</guid>

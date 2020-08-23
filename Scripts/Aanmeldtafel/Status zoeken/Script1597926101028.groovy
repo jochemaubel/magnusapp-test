@@ -15,15 +15,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('aanmeldtafel/Ga naar aanmeldtafel'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Magnus Club App/Daan afwezig'))
-
-WebUI.verifyElementText(findTestObject('Page_Magnus Club App/Daan aanwezig'), 'Daan Aubel')
-
-WebUI.click(findTestObject('Page_Magnus Club App/Daan aanwezig'))
-
-WebUI.verifyElementText(findTestObject('Page_Magnus Club App/Daan afwezig'), 'Daan Aubel')
-
-WebUI.closeBrowser()
-

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Go to App</name>
+   <name>Ga naar App</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d69fe5ed-0980-4770-a27d-005bf70d1ff1</testCaseGuid>

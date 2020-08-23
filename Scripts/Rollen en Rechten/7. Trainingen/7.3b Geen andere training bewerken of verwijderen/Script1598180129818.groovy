@@ -15,5 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('aanmeldtafel/Ga naar aanmeldtafel'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu/Club/Trainingen'))
+
+WebUI.mouseOver(findTestObject('Trainingen/Koningsaanval training'))
+
+WebUI.verifyElementNotPresent(findTestObject('Trainingen/Training Koningsaanval bewerken'), 0)
+
+WebUI.verifyElementNotPresent(findTestObject('Trainingen/Training Koningsaanval verwijderen'), 0)
+
+WebUI.click(findTestObject('Trainingen/Koningsaanval training'))
+
+WebUI.verifyElementNotPresent(findTestObject('Algemeen/Bewerken'), 0)
+
+WebUI.closeBrowser()
 
