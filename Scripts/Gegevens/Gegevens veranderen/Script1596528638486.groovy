@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Inloggen/Inloggen Jochem'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Profiel Jochem/Profiel'))
+WebUI.click(findTestObject('Menu/Profiel map/Profiel'))
 
 WebUI.click(findTestObject('Menu/Profiel Jochem/Koen'))
 

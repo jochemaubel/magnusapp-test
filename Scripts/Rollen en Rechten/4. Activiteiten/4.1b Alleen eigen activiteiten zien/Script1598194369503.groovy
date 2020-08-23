@@ -15,17 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/activities'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Trainingen'))
+WebUI.click(findTestObject('Menu/Persoonlijk/Activiteiten'))
 
-WebUI.click(findTestObject('Activiteiten/TEST training'))
+WebUI.verifyElementPresent(findTestObject('Activiteiten/TEST clubavond vrijdag'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Trainingen/TEST training header'), 0)
+WebUI.verifyTextNotPresent('TEST activiteit zonder leden', false)
 
-WebUI.click(findTestObject('Algemeen/Back Button'))
-
-WebUI.click(findTestObject('Trainingen/Koningsaanval training'))
-
-WebUI.verifyElementPresent(findTestObject('Trainingen/Koningsaanval header'), 0)
+WebUI.closeBrowser()
 

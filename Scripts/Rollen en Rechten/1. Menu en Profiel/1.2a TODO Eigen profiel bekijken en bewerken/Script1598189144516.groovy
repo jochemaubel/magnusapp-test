@@ -15,3 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu/Profiel map/Profiel'))
+
+WebUI.click(findTestObject('Menu/Profiel map/Member'))
+
+WebUI.click(findTestObject('Ledengegevens/Gegevens'))
+
+WebUI.setText(findTestObject('Ledengegevens/Email-adres'), 'test@schaakclub.nl')
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('Ledengegevens/Gegevens'))
+
+WebUI.verifyElementAttributeValue(findTestObject('Ledengegevens/Email-adres'), 'value', 'test@schaakclub.nl', 0)
+
+WebUI.doubleClick(findTestObject('Ledengegevens/Email-adres'))
+
+WebUI.sendKeys(findTestObject('Ledengegevens/Email-adres'), 'Keys.BACKSPACE')
+
+WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+
+WebUI.closeBrowser()
+

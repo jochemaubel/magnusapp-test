@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>6.1b TODO Geen stellingen zien</name>
+   <name>4.1b Alleen eigen activiteiten zien</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4f70a947-4c35-4084-9985-b0bd42f26f17</testCaseGuid>
+   <testCaseGuid>f060146d-a5c9-4c65-b646-559355d12e72</testCaseGuid>
 </TestCaseEntity>

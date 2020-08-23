@@ -15,27 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/training'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
-
-WebUI.mouseOver(findTestObject('Stellingen/TEST stelling'))
-
-WebUI.click(findTestObject('Stellingen/TEST stelling bewerken'))
-
-WebUI.click(findTestObject('Algemeen/Annuleerknop'))
-
-WebUI.click(findTestObject('Stellingen/TEST stelling verwijderen'))
-
-WebUI.click(findTestObject('Algemeen/Annuleerknop'))
-
-WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
-
-WebUI.verifyElementNotPresent(findTestObject('Stellingen/Tooltip'), 0)
-
-WebUI.click(findTestObject('Stellingen/Spaans stelling bekijken'))
-
-WebUI.verifyElementPresent(findTestObject('Stellingen/Tooltip'), 0)
+WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'training/1'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

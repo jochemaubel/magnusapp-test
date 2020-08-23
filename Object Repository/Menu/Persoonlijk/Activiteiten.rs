@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[normalize-space() = 'Activiteiten'][1]</value>
+         <value>//a//*[normalize-space() = 'Activiteiten'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
