@@ -15,19 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Schaakstellingen'))
 
-WebUI.click(findTestObject('Stellingen/Spaans stelling'))
+WebUI.click(findTestObject('6. Stellingen/Spaans stelling'))
 
 WebUI.verifyTextNotPresent('Bewerk stelling', false)
 
-WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
+WebUI.mouseOver(findTestObject('6. Stellingen/Spaans stelling'))
 
-WebUI.verifyElementNotPresent(findTestObject('Stellingen/Spaans stelling bewerken'), 0)
+WebUI.verifyElementNotPresent(findTestObject('6. Stellingen/Spaans stelling bewerken'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('Stellingen/Spaans stelling verwijderen'), 0)
+WebUI.verifyElementNotPresent(findTestObject('6. Stellingen/Spaans stelling verwijderen'), 0)
 
 WebUI.closeBrowser()
 

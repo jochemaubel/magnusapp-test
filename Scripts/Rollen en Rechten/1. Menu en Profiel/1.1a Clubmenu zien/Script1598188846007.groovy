@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club menu'), 0)
+WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Club menu'), 0)
 
 WebUI.closeBrowser()
 

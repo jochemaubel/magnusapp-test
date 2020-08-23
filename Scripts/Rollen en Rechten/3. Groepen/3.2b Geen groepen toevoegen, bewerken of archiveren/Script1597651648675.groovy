@@ -15,19 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Groepen/Competitiegroepen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Competitiegroepen'))
 
-WebUI.click(findTestObject('Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0. Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextNotPresent('Archiveer', false)
 
-WebUI.click(findTestObject('Algemeen/Back Button'))
+WebUI.click(findTestObject('0. Algemeen/Back Button'))
 
-WebUI.verifyElementNotPresent(findTestObject('Algemeen/Toevoegen'), 0)
+WebUI.verifyElementNotPresent(findTestObject('0. Algemeen/FAB Toevoegen'), 0)
 
-WebUI.click(findTestObject('Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0. Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextNotPresent('Wijzig groepsinstellingen', false)
 

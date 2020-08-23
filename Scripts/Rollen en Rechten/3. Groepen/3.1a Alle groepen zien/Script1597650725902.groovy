@@ -15,19 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Groepen/Trainingsgroep'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Trainingsgroep'))
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club/Groepen/TEST trainingsgroep'), 0)
+WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'), 0)
 
-WebUI.click(findTestObject('Menu/Club/Groepen/Competitiegroepen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Competitiegroepen'))
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club/Groepen/TEST competitiegroep'), 0)
+WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST competitiegroep'), 0)
 
-WebUI.click(findTestObject('Menu/Club/Groepen/Externe competitie'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Externe competitie'))
 
-WebUI.verifyElementPresent(findTestObject('Menu/Club/Groepen/TEST magnus team'), 0)
+WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST magnus team'), 0)
 
 WebUI.closeBrowser()
 
