@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>h</value>
+      <value>t</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

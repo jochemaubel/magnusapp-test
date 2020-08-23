@@ -14,7 +14,7 @@
       <guid>36f1b38b-94b3-4d02-bcb7-555131ce11f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu/1a. Kan clubmenu zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu/1a. Clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>db5f0eb7-f73b-4754-9914-4c86286bb9ee</guid>
@@ -74,7 +74,7 @@
       <guid>f10028b9-4016-4d03-b4a8-c49351de42dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.2b Geen activiteiten toevoegen, aanpassen of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.2a Activiteiten toevoegen, aanpassen of verwijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a423c220-59ae-43b1-af33-442c034def9a</guid>
@@ -98,7 +98,7 @@
       <guid>589afe3d-4349-4c65-bc54-0ca74b4e63c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6b TODO Geen leden aan- en afmelden bij andere activiteiten</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6b Geen leden aan- en afmelden bij andere activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88f4abe4-2a8f-4fd8-8f31-8a76890a1ff5</guid>
@@ -110,13 +110,13 @@
       <guid>b8faf9a7-adc5-4502-8cd4-60d1603e9066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.8a TODO Training toevoegen, bewerken of verwijderen bij eigen activiteit</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.8a Training toevoegen, bewerken of verwijderen bij eigen activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7f5f4fe3-8c85-4796-90dd-c974fd4d6d6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.9b TODO Geen training toevoegen, bewerken of verwijderen bij andere activiteiten</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.9b Geen training toevoegen, bewerken of verwijderen bij andere activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dcd34bc7-45f7-4859-8445-fb0850d1db0e</guid>
@@ -140,60 +140,30 @@
       <guid>aa6255ab-6c9a-4175-8970-ab2b719949ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.1a TODO splitsen - Alle stellingen zien maar alleen die van zichzelf bewerken en verwijderen</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f87692f7-96a6-44cf-9233-76b22f39837b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.2a TODO Stelling toevoegen</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d5f62d47-4b9f-4629-9d56-e418d904e954</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.3a TODO Eigen stelling bewerken of verwijderen</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1bdc8ecd-d38c-40b4-b2f8-391df0bf842a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.4b TODO Geen andere stelling bewerken of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.1a Alle stellingen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>41185f71-3e03-49ea-8e3f-8dd86ae9f3a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/Kan niet op een stelling doorklikken die niet van hem is</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.3b Niet een andere stelling bewerken of verijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a03ad552-87ae-409b-b41f-8eb0a4f0ce05</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.1a TODO Alle trainingen zien</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>96c6db65-8754-484a-ac86-e62965c83177</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a TODO Doorklikken naar een training</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.1a Alle trainingen zien en doorklikken naar een training</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b4860f11-7588-43c4-907a-657638205cd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.3a TODO Training toevoegen</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>005d86cb-089b-476b-b141-0f0261f263fb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.4a TODO Eigen training bewerken of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a TODO Training toevoegen en eigen training bewerken en verwijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6e51c3c7-8ff2-4ac3-be5f-bc41ad611a79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.5b TODO Geen andere training bewerken of verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.3b TODO Geen andere training bewerken of verwijderen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

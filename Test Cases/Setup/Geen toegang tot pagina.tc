@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Geen toegang tot pagina</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4836a6bc-d276-49a9-94ff-45235118a87c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d6883aa-9297-4231-9113-c136335104fb</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

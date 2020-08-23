@@ -21,5 +21,5 @@ WebUI.click(findTestObject('Menu/Club/Activiteiten'))
 
 WebUI.click(findTestObject('Activiteiten/Test training'))
 
-WebUI.click(findTestObject('Activiteiten/TEST training lesstof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
 

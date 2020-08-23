@@ -6,11 +6,11 @@
    <elementGuidId>8d3e2c24-0dfd-4a85-8c3d-0390ca6c02ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,  'MuiFab-root')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@data-testid = &quot;fab-add&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
