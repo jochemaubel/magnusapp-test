@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2.2a. Vanuit ledeoverzicht doorklikken naar lid</name>
+   <name>1.1b Geen clubmenu zien</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e9476b15-c20f-423f-8e75-82e66db4fb4e</testCaseGuid>
+   <testCaseGuid>74851563-fa8a-481c-aad7-cfeeed97800f</testCaseGuid>
 </TestCaseEntity>
