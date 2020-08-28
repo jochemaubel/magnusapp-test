@@ -16,8 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('1. Profiel/Accounts'))
 
 WebUI.setText(findTestObject('1. Profiel/Chesscom naam'), 'ChessComAccount')

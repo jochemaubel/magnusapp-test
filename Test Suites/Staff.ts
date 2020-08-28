@@ -41,6 +41,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.4a Detailgegevens en schaakaccounts van leden zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f930498d-07bc-4675-ac80-e3f7766eeb0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.1a Alle groepen zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2b3f93e1-8f14-44c7-a194-5492433f7aeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -71,10 +77,22 @@
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.3a Doorklikken naar activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>76bd3c45-79b4-4322-9bca-07cb89615886</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.4a Vanuit activiteit doorklikken op lid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7beb84dd-9697-4755-a8f1-5e30822d10e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6a Leden aan- en afmelden bij alle activiteiten</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58e90988-1eb6-47b7-8012-b6df56ee08b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.7a. Training zien bij activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>381c3a48-9977-4e74-bbba-bf342e336fac</guid>

@@ -21,7 +21,9 @@ WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
 WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
 
-WebUI.verifyElementNotPresent(findTestObject('1.2 Profiel/Gegevens'), 0)
+WebUI.verifyElementNotPresent(findTestObject('1. Profiel/Gegevens'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('1. Profiel/Accounts'), 0)
+
+WebUI.closeBrowser()
 

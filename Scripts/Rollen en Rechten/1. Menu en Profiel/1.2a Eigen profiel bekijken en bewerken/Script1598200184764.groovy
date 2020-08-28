@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling
 
 WebUI.callTestCase(findTestCase('1. Profiel/Gegevens lid bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
