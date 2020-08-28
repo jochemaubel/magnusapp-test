@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Groep toevoegen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>640f3f6f-884c-41f8-9a9e-026fb395a038</testCaseGuid>
+   <variable>
+      <defaultValue>'NIEUWE groep'</defaultValue>
+      <description></description>
+      <id>9f1104d8-7a71-4ad3-a233-e879faa21428</id>
+      <masked>false</masked>
+      <name>Groepsnaam</name>
+   </variable>
+</TestCaseEntity>

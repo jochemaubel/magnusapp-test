@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Ledenoverzicht'))
+WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
-WebUI.click(findTestObject('Menu/Club/Ledenoverzicht map/Aad (Aanmeldtafel)'))
+WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
 
-WebUI.verifyElementNotPresent(findTestObject('Ledengegevens/Gegevens'), 0)
+WebUI.verifyElementNotPresent(findTestObject('1.2 Profiel/Gegevens'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('Menu/Club/Ledenoverzicht map/Lid pagina/Accounts'), 0)
+WebUI.verifyElementNotPresent(findTestObject('1. Profiel/Accounts'), 0)
 

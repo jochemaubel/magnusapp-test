@@ -15,11 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/traininggroups'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/traininggroups'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/competition'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/competition'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Setup/Geen toegang tot pagina'), [('url') : 'management/teams'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/teams'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -15,31 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Trainingen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Trainingen'))
 
-WebUI.click(findTestObject('Algemeen/Toevoegen'))
+WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))
 
-WebUI.setText(findTestObject('Trainingen/Trainingsnaam input'), 'NIEUWE training')
+WebUI.setText(findTestObject('7. Trainingen/Trainingsnaam input'), 'NIEUWE training')
 
-WebUI.click(findTestObject('Algemeen/Toevoegenknop'))
+WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
 
-not_run: WebUI.click(findTestObject('Trainingen/Voeg stelling toe'))
+not_run: WebUI.click(findTestObject('7. Trainingen/Voeg stelling toe'))
 
-not_run: WebUI.click(findTestObject('Stellingen/Spaans stelling'))
+not_run: WebUI.click(findTestObject('6. Stellingen/Spaans stelling'))
 
-not_run: WebUI.click(findTestObject('Algemeen/Opslaanknop'))
+not_run: WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 not_run: WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
 
-WebUI.click(findTestObject('Algemeen/Back Button'))
+WebUI.click(findTestObject('0. Algemeen/Back Button'))
 
-not_run: WebUI.mouseOver(findTestObject('Trainingen/NIEUWE training'))
+not_run: WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training'))
 
-not_run: WebUI.click(findTestObject('Trainingen/NIEUWE training verwijderen'))
+not_run: WebUI.click(findTestObject('7. Trainingen/NIEUWE training verwijderen'))
 
-not_run: WebUI.click(findTestObject('Algemeen/Verwijderknop'))
+not_run: WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
 
 not_run: WebUI.verifyTextPresent('De training is verwijderd', false)
 

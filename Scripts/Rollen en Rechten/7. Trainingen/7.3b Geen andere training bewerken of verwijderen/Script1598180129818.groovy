@@ -15,19 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Trainingen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Trainingen'))
 
-WebUI.mouseOver(findTestObject('Trainingen/Koningsaanval training'))
+WebUI.mouseOver(findTestObject('7. Trainingen/Koningsaanval training'))
 
-WebUI.verifyElementNotPresent(findTestObject('Trainingen/Training Koningsaanval bewerken'), 0)
+WebUI.verifyElementNotPresent(findTestObject('7. Trainingen/Training Koningsaanval bewerken'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('Trainingen/Training Koningsaanval verwijderen'), 0)
+WebUI.verifyElementNotPresent(findTestObject('7. Trainingen/Training Koningsaanval verwijderen'), 0)
 
-WebUI.click(findTestObject('Trainingen/Koningsaanval training'))
+WebUI.click(findTestObject('7. Trainingen/Koningsaanval training'))
 
-WebUI.verifyElementNotPresent(findTestObject('Algemeen/Bewerken'), 0)
+WebUI.verifyElementNotPresent(findTestObject('0. Algemeen/FAB Bewerken'), 0)
 
 WebUI.closeBrowser()
 

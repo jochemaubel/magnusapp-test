@@ -15,27 +15,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Schaakstellingen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Schaakstellingen'))
 
-WebUI.mouseOver(findTestObject('Stellingen/TEST stelling'))
+WebUI.mouseOver(findTestObject('6. Stellingen/TEST stelling'))
 
-WebUI.click(findTestObject('Stellingen/TEST stelling bewerken'))
+WebUI.click(findTestObject('6. Stellingen/TEST stelling bewerken'))
 
-WebUI.click(findTestObject('Algemeen/Annuleerknop'))
+WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
 
-WebUI.click(findTestObject('Stellingen/TEST stelling verwijderen'))
+WebUI.click(findTestObject('6. Stellingen/TEST stelling verwijderen'))
 
-WebUI.click(findTestObject('Algemeen/Annuleerknop'))
+WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
 
-WebUI.mouseOver(findTestObject('Stellingen/Spaans stelling'))
+WebUI.mouseOver(findTestObject('6. Stellingen/Spaans stelling'))
 
-WebUI.verifyElementNotPresent(findTestObject('Stellingen/Tooltip'), 0)
+WebUI.verifyElementNotPresent(findTestObject('6. Stellingen/Tooltip'), 0)
 
-WebUI.click(findTestObject('Stellingen/Spaans stelling bekijken'))
+WebUI.click(findTestObject('6. Stellingen/Spaans stelling bekijken'))
 
-WebUI.verifyElementPresent(findTestObject('Stellingen/Tooltip'), 0)
+WebUI.verifyElementPresent(findTestObject('6. Stellingen/Tooltip'), 0)
 
 WebUI.closeBrowser()
 

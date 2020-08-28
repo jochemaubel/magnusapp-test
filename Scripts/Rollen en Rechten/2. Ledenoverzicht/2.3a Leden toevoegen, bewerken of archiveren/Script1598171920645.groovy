@@ -15,33 +15,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setup/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu/Club/Ledenoverzicht'))
+WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
-WebUI.click(findTestObject('Algemeen/Toevoegen'))
+WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))
 
-WebUI.setText(findTestObject('Menu/Club/Ledenoverzicht map/Voornaam input'), 'AAA')
+WebUI.setText(findTestObject('2. Ledenoverzicht/Voornaam input'), 'AAA')
 
-WebUI.setText(findTestObject('Menu/Club/Ledenoverzicht map/Achternaam input'), 'BBB')
+WebUI.setText(findTestObject('2. Ledenoverzicht/Achternaam input'), 'BBB')
 
-WebUI.click(findTestObject('Algemeen/Toevoegenknop'))
+WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
 
 WebUI.verifyTextPresent('AAA BBB', false)
 
-WebUI.mouseOver(findTestObject('Menu/Club/Ledenoverzicht map/AAA BBB'))
+WebUI.mouseOver(findTestObject('2. Ledenoverzicht/AAA BBB'))
 
-WebUI.click(findTestObject('Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0. Algemeen/Archiveren item in lijst'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Algemeen/Archiverenknop'))
+WebUI.click(findTestObject('0. Algemeen/Archiverenknop'))
 
 WebUI.verifyTextPresent('AAA BBB is gearchiveerd', false)
 
-WebUI.mouseOver(findTestObject('Menu/Club/Ledenoverzicht map/Aad (Aanmeldtafel)'))
+WebUI.mouseOver(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
 
-WebUI.click(findTestObject('Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0. Algemeen/Aanpassen item in lijst'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Ledengegevens/Gegevens'), 0)
+WebUI.verifyElementPresent(findTestObject('1. Profiel/Gegevens'), 0)
 
 WebUI.closeBrowser()
 
