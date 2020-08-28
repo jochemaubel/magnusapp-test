@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('4. Activiteiten/Input Activiteitnaam'), 'NIEUWE ac
 
 WebUI.click(findTestObject('4. Activiteiten/Input Type activiteit'))
 
-WebUI.click(findTestObject('4. Activiteiten/Input Starttijd'))
+WebUI.click(findTestObject('4. Activiteiten/Type activitiveit Interne competitie'))
 
 WebUI.setText(findTestObject('4. Activiteiten/Input Starttijd'), '19:00')
 
