@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li//*[normalize-space()='NIEUWE activiteit']
+         <value>//li//*[normalize-space()='NIEUWE activiteit']|//li//*[normalize-space()='NIEUWE activiteit (bewerkt)']
 </value>
       </entry>
    </selectorCollection>

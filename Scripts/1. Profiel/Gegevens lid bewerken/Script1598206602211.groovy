@@ -16,15 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1.2 Profiel/Gegevens'))
+WebUI.click(findTestObject('1. Profiel/Gegevens'))
 
-WebUI.setText(findTestObject('1.2 Profiel/Tussenvoegsel'), 'van')
+WebUI.setText(findTestObject('1. Profiel/Tussenvoegsel'), 'van')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('De gegevens zijn opgeslagen', false)
 
-WebUI.setText(findTestObject('1.2 Profiel/Postcode'), '1234AB')
+WebUI.setText(findTestObject('1. Profiel/Postcode'), '1234AB')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
@@ -36,7 +36,7 @@ WebUI.verifyTextPresent('Vul de woonplaats in', true)
 
 WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
 
-WebUI.setText(findTestObject('1.2 Profiel/Begin Lidmaatschap'), '01-01-2013')
+WebUI.setText(findTestObject('1. Profiel/Begin Lidmaatschap'), '01-01-2013')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
@@ -44,24 +44,24 @@ WebUI.verifyTextPresent('De gegevens zijn opgeslagen', true)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('1.2 Profiel/Gegevens'))
+WebUI.click(findTestObject('1. Profiel/Gegevens'))
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Tussenvoegsel'), 'value', 'van', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Tussenvoegsel'), 'value', 'van', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Postcode'), 'value', '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Postcode'), 'value', '', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Begin Lidmaatschap'), 'value', '01-01-2013', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Begin Lidmaatschap'), 'value', '01-01-2013', 0)
 
-WebUI.doubleClick(findTestObject('1.2 Profiel/Tussenvoegsel'))
+WebUI.doubleClick(findTestObject('1. Profiel/Tussenvoegsel'))
 
-WebUI.sendKeys(findTestObject('1.2 Profiel/Tussenvoegsel'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('1. Profiel/Tussenvoegsel'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-WebUI.click(findTestObject('1.2 Profiel/Begin Lidmaatschap'))
+WebUI.click(findTestObject('1. Profiel/Begin Lidmaatschap'))
 
 for (def i : (1..8)) {
-    WebUI.sendKeys(findTestObject('1.2 Profiel/Begin Lidmaatschap'), Keys.chord(Keys.BACK_SPACE))
+    WebUI.sendKeys(findTestObject('1. Profiel/Begin Lidmaatschap'), Keys.chord(Keys.BACK_SPACE))
 }
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))

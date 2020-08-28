@@ -51,6 +51,8 @@ WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('NIEUWE activiteit (bewerkt) is aangepast', false)
 
+WebUI.mouseOver(findTestObject('4. Activiteiten/NIEUWE activiteit'))
+
 WebUI.click(findTestObject('4. Activiteiten/NIEUWE activiteit verwijderen'))
 
 WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))

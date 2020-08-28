@@ -16,15 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('1. Profiel/Accounts'))
 
-WebUI.setText(findTestObject('1.2 Profiel/Chesscom naam'), 'ChessComAccount')
+WebUI.setText(findTestObject('1. Profiel/Chesscom naam'), 'ChessComAccount')
 
-WebUI.setText(findTestObject('1.2 Profiel/Chesskid naam'), 'ChessKidAccount')
+WebUI.setText(findTestObject('1. Profiel/Chesskid naam'), 'ChessKidAccount')
 
-WebUI.setText(findTestObject('1.2 Profiel/Lichess naam'), 'LichessAccount')
+WebUI.setText(findTestObject('1. Profiel/Lichess naam'), 'LichessAccount')
 
-WebUI.setText(findTestObject('1.2 Profiel/Lichess token'), 'LichessToken')
+WebUI.setText(findTestObject('1. Profiel/Lichess token'), 'LichessToken')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
@@ -32,29 +34,29 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('1. Profiel/Accounts'))
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Chesscom naam'), 'value', 'ChessComAccount', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Chesscom naam'), 'value', 'ChessComAccount', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Chesskid naam'), 'value', 'ChessKidAccount', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Chesskid naam'), 'value', 'ChessKidAccount', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Lichess naam'), 'value', 'LichessAccount', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Lichess naam'), 'value', 'LichessAccount', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1.2 Profiel/Lichess token'), 'value', 'LichessToken', 0)
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Lichess token'), 'value', 'LichessToken', 0)
 
-WebUI.doubleClick(findTestObject('1.2 Profiel/Chesscom naam'))
+WebUI.doubleClick(findTestObject('1. Profiel/Chesscom naam'))
 
-WebUI.sendKeys(findTestObject('1.2 Profiel/Chesscom naam'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('1. Profiel/Chesscom naam'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.doubleClick(findTestObject('1.2 Profiel/Chesskid naam'))
+WebUI.doubleClick(findTestObject('1. Profiel/Chesskid naam'))
 
-WebUI.sendKeys(findTestObject('1.2 Profiel/Chesskid naam'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('1. Profiel/Chesskid naam'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.doubleClick(findTestObject('1.2 Profiel/Lichess naam'))
+WebUI.doubleClick(findTestObject('1. Profiel/Lichess naam'))
 
-WebUI.sendKeys(findTestObject('1.2 Profiel/Lichess naam'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('1. Profiel/Lichess naam'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.doubleClick(findTestObject('1.2 Profiel/Lichess token'))
+WebUI.doubleClick(findTestObject('1. Profiel/Lichess token'))
 
-WebUI.sendKeys(findTestObject('1.2 Profiel/Lichess token'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('1. Profiel/Lichess token'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
