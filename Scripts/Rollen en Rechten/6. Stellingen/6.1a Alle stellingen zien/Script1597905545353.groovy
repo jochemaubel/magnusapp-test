@@ -19,15 +19,21 @@ WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.ST
 
 WebUI.click(findTestObject('1. Menu/2. Club/Schaakstellingen'))
 
-WebUI.mouseOver(findTestObject('6. Stellingen/TEST stelling'))
+if (GlobalVariable.Email == 'trainer@schaakclub.nl') {
+	WebUI.mouseOver(findTestObject('6. Stellingen/TEST stelling'))
+	
+	WebUI.click(findTestObject('6. Stellingen/TEST stelling bewerken'))
+	
+	WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
+	
+	WebUI.click(findTestObject('6. Stellingen/TEST stelling verwijderen'))
+	
+	WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
+} else {
+	WebUI.verifyElementPresent(findTestObject('6. Stellingen/TEST stelling'), 0)
+}
 
-WebUI.click(findTestObject('6. Stellingen/TEST stelling bewerken'))
 
-WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
-
-WebUI.click(findTestObject('6. Stellingen/TEST stelling verwijderen'))
-
-WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
 
 WebUI.mouseOver(findTestObject('6. Stellingen/Spaans stelling'))
 
@@ -38,4 +44,3 @@ WebUI.click(findTestObject('6. Stellingen/Spaans stelling bekijken'))
 WebUI.verifyElementPresent(findTestObject('6. Stellingen/Tooltip'), 0)
 
 WebUI.closeBrowser()
-

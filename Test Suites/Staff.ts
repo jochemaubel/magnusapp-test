@@ -77,12 +77,6 @@
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6a Leden aan- en afmelden bij alle activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>df590cdc-af9a-4bd7-b1c7-a36b99d7eca7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.8a Training toevoegen, bewerken of verwijderen bij eigen activiteit</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>381c3a48-9977-4e74-bbba-bf342e336fac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -109,7 +103,7 @@
    <testCaseLink>
       <guid>f3c9d936-2c78-4ced-a01d-dfd3f03df34f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.1a Alle stellingen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>

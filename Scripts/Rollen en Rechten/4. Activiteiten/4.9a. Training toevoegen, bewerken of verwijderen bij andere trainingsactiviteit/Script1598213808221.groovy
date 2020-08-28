@@ -16,23 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rollen en Rechten/4. Activiteiten/4.7a. Training zien bij activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('4. Activiteiten/Selecteer training knop'))
-
-WebUI.setText(findTestObject('4. Activiteiten/Kies een training dropdown'), 'Koningsaanval')
-
-WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
-
-WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
-
-WebUI.click(findTestObject('0. Algemeen/FAB Bewerken'))
-
-WebUI.mouseOver(findTestObject('4. Activiteiten/Kies een training dropdown'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('0. Algemeen/Dropdown verwijder knop'))
-
-WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Rollen en Rechten/4. Activiteiten/4.8a Training toevoegen, bewerken of verwijderen bij eigen activiteit'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 

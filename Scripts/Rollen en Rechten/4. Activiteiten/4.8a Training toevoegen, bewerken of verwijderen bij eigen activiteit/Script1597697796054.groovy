@@ -22,7 +22,7 @@ WebUI.click(findTestObject('4. Activiteiten/Selecteer training knop'))
 
 WebUI.setText(findTestObject('4. Activiteiten/Kies een training dropdown'), 'Koningsaanval')
 
-WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+WebUI.click(findTestObject('4. Activiteiten/Kies een training - Koningsaanval'))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
