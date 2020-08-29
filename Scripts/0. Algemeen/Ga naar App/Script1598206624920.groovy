@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+not_run: WebUI.setViewPortSize(GlobalVariable.ViewportWidth, GlobalVariable.ViewportHeight)
+
 switch (GlobalVariable.Environment) {
     case 'Local':
         WebUI.navigateToUrl(GlobalVariable.BaseUrlLocal + url)

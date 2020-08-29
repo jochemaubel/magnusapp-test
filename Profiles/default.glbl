@@ -29,4 +29,14 @@
       <initValue>'Je hebt geen toegang tot deze pagina.'</initValue>
       <name>NoAccess</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>ViewportWidth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>ViewportHeight</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

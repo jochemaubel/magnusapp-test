@@ -27,5 +27,3 @@ WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
 
-WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
-

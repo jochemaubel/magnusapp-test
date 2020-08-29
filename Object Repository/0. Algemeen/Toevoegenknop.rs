@@ -6,11 +6,11 @@
    <elementGuidId>0308ef2e-80fe-4999-b4bf-ec58bc058d81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button//*[normalize-space() = 'Toevoegen']|//button//*[normalize-space() = 'Oké']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button//*[normalize-space() = 'Toevoegen']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
