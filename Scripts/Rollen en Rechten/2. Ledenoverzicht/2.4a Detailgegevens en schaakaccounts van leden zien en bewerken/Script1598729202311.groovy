@@ -21,9 +21,11 @@ WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
 WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
 
-WebUI.click(findTestObject('1. Profiel/Gegevens'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Gegevens lid bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Profiel/Accounts'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToPosition(0, 0)
+
+WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

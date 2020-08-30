@@ -17,18 +17,6 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.1b Geen clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b28b45f-e673-4bee-bf8d-9865eb6ed577</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1b Geen ledenoverzicht zien</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>03b98219-2e43-4de4-8271-d02b299c0a4d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.2b. Geen profiel van andere leden zien</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>032cfa44-ecbd-40c8-84fb-dc1337a4bce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -39,6 +27,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3b Vanuit profiel naar groepen, niet doorklikken op leden</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b28b45f-e673-4bee-bf8d-9865eb6ed577</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1b Geen ledenoverzicht zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03b98219-2e43-4de4-8271-d02b299c0a4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.2b. Geen profiel van andere leden zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9049fbb9-8152-4e31-bc87-f5d881658451</guid>
@@ -53,25 +53,19 @@
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.1b Alleen eigen activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f72f5cd2-c7a0-4c7a-94fa-fb69ceed73f9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.5b TODO Zichzelf aan- en afmelden bij activiteiten</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a9c73a59-a42c-41e5-b4a2-53c2ea593e1e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.3a Doorklikken naar activiteit</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8fab517d-d1c5-40b1-8c3a-d0b21faaaaf3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.4b Niet vanuit activiteit doorklikken op lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a627bd91-d797-4e4f-b0e6-767f02067387</guid>
+      <guid>f72f5cd2-c7a0-4c7a-94fa-fb69ceed73f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.5b TODO Zichzelf aan- en afmelden bij activiteiten</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>949b55d0-db38-445b-bf2e-0c078649789a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6b Geen leden aan- en afmelden bij andere activiteiten</testCaseId>

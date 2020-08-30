@@ -38,7 +38,7 @@
       <guid>4b16518c-129b-4951-a217-5503607a1a3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.4a Detailgegevens en schaakaccounts van leden zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.4a Detailgegevens en schaakaccounts van leden zien en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f930498d-07bc-4675-ac80-e3f7766eeb0b</guid>

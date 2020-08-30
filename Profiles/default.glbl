@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://localhost:3000'</initValue>
+      <initValue>'http://localhost:3000/'</initValue>
       <name>BaseUrlLocal</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

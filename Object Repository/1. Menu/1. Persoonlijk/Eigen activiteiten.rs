@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Activiteiten</name>
+   <name>Eigen activiteiten</name>
    <tag></tag>
    <elementGuidId>1b789c43-5572-4c2f-80e9-1c064d2ceb2f</elementGuidId>
    <selectorCollection>

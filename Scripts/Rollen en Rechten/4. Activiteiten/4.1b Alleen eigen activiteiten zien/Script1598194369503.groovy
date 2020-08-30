@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/activities'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Activiteiten'))
+WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
 
 WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)
 

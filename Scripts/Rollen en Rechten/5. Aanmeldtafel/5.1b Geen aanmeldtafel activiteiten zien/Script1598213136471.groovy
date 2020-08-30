@@ -17,7 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/registration'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/registration/13'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : 'management/registration/4'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('We kunnen niet vinden wat je zoekt...', false)
 
 WebUI.closeBrowser()
 
