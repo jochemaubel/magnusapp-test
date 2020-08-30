@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Ouder</name>
+   <name>4. Hulptrainer</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,87 +9,87 @@
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>bcdbc3a6-d41a-4bb1-b55e-b4e09a7503d6</testSuiteGuid>
+   <testSuiteGuid>ece6d368-29e4-4b0f-bf83-a10c5326d467</testSuiteGuid>
    <testCaseLink>
-      <guid>90c55f04-1b76-431c-aeeb-ee9a7cd14735</guid>
+      <guid>e1053108-3697-42ee-8b74-50d16f93773f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.1b Geen clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>032cfa44-ecbd-40c8-84fb-dc1337a4bce7</guid>
+      <guid>7fc1128c-19b9-4cb1-a230-49e6277224bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.2a Eigen profiel bekijken en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2080deec-e99d-40b4-bd9a-0ce0137d6fca</guid>
+      <guid>0098a2cf-977a-4a6f-baae-d6006bb40c1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3b Vanuit profiel naar groepen, niet doorklikken op leden</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b28b45f-e673-4bee-bf8d-9865eb6ed577</guid>
+      <guid>9d8c8671-fc9e-47d2-8156-b1e3eef1885e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1b Geen ledenoverzicht zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>03b98219-2e43-4de4-8271-d02b299c0a4d</guid>
+      <guid>365fd588-54cc-47c2-bf58-57047239f68f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.2b. Geen profiel van andere leden zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9049fbb9-8152-4e31-bc87-f5d881658451</guid>
+      <guid>bdb2ea92-4185-4699-9acf-39f9eb056aa7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.1b Geen groepen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8324203-6ed3-4677-b53b-adcd6f576394</guid>
+      <guid>9afb5729-050d-47dc-8d7b-91622d4e4b65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.1b Alleen eigen activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fab517d-d1c5-40b1-8c3a-d0b21faaaaf3</guid>
+      <guid>12947399-9084-4bb0-97e1-14f593887e11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.4b Niet vanuit activiteit doorklikken op lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f72f5cd2-c7a0-4c7a-94fa-fb69ceed73f9</guid>
+      <guid>d74400c8-8701-45be-bf1d-f047275dcaa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.5b TODO Zichzelf aan- en afmelden bij activiteiten</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.5a Leden aan- en afmelden bij eigen activiteiten</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>949b55d0-db38-445b-bf2e-0c078649789a</guid>
+      <guid>7fa2a24b-5d25-4cd2-99d1-6fd2229443b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.6b Geen leden aan- en afmelden bij andere activiteiten</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.7a. Training zien bij activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>55cd5b45-7e8e-4477-b06a-450b49c08dcd</guid>
+      <guid>d9e26018-fb15-4a3d-9e7b-87a37cebb893</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.7b. Geen training zien bij activiteit</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.8a Training toevoegen, bewerken of verwijderen bij eigen activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c52a73a4-e2a5-4679-b7cf-8b6f0c4cdd43</guid>
+      <guid>82177436-2c24-4968-90a3-2b1859f13942</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/5. Aanmeldtafel/5.1b Geen aanmeldtafel activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4fba8ca4-32d3-4606-8d6e-9ddf5e6118b6</guid>
+      <guid>4d3527bb-585c-49d8-a632-d2b89466bad2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/6. Stellingen/6.1b Geen stellingen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>61558a03-07a0-4be7-8914-89a4790512e7</guid>
+      <guid>371e0a0d-03b8-42ec-a0e5-9129310b08a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.1b Geen trainingen zien</testCaseId>

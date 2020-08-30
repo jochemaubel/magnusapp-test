@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : url], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent(GlobalVariable.NoAccess, false)
+WebUI.verifyTextPresent(GlobalVariable.NoAccess, true)
 

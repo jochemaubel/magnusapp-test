@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Je hebt geen toegang tot deze pagina.'</initValue>
+      <initValue>'Je hebt geen toegang tot deze pagina.|We kunnen niet vinden wat je zoekt...'</initValue>
       <name>NoAccess</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -15,24 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
-
-switch (GlobalVariable.Email) {
-    case 'lid@schaakclub.nl':
-        WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
-
-        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
-
-        break
-    default:
-        WebUI.click(findTestObject('1. Menu/2. Club/Activiteiten'))
-
-        break
+if (WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Registratie'), 0)) {
+	WebUI.click(findTestObject('5. Aanmeldtafel/Button Lijstweergave'))
 }
-
-WebUI.click(findTestObject('4. Activiteiten/TEST competitie'))
-
-WebUI.verifyElementNotPresent(findTestObject('0. Algemeen/Checkbox Daan'), 0)
-
-WebUI.closeBrowser()
-

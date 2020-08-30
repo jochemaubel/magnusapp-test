@@ -17,7 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('1. Profiel/Van profiel naar groep naar lid'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('2. Ledenoverzicht/Profielpagina Daan'), 0)
+switch (GlobalVariable.Email) {
+	case 'aanmeldtafel@schaakclub.nl':
+	WebUI.verifyElementNotPresent(findTestObject('2. Ledenoverzicht/Profielpagina Bas'), 0)
+	break
+	default:
+	WebUI.verifyElementNotPresent(findTestObject('2. Ledenoverzicht/Profielpagina Daan'), 0)
+}
 
 WebUI.closeBrowser()
 

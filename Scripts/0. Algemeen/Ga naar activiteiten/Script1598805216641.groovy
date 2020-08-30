@@ -19,6 +19,7 @@ WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], Failure
 
 switch (GlobalVariable.Email) {
     case 'hulptrainer@schaakclub.nl':
+	case 'aanmeldtafel@schaakclub.nl':
         WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
 
         break

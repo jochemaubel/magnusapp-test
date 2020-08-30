@@ -21,11 +21,11 @@ WebUI.click(findTestObject('1. Menu/2. Club/Activiteiten'))
 
 WebUI.click(findTestObject('4. Activiteiten/TEST training'))
 
-WebUI.click(findTestObject('0. Algemeen/Aanmeldknop'))
+WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
 
 WebUI.verifyTextPresent('Huub is aangemeld', false)
 
-WebUI.click(findTestObject('0. Algemeen/Aanmeldknop'))
+WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
 
 WebUI.verifyTextPresent('Huub is afgemeld', false)
 

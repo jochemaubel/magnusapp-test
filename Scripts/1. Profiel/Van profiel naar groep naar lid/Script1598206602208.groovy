@@ -17,7 +17,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))
-
-WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Daan Aubel'))
-
+switch (GlobalVariable.Email) {
+	case 'aanmeldtafel@schaakclub.nl':
+		WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST clubavond'))
+		WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Bas van Esch'))
+		break
+	default:
+		WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))
+		WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Daan Aubel'))
+}

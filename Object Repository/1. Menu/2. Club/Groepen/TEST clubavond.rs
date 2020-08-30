@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Aanmeldknop</name>
+   <name>TEST clubavond</name>
    <tag></tag>
-   <elementGuidId>42edb0f2-3632-4fc4-affa-72113e5905e4</elementGuidId>
+   <elementGuidId>92745d12-6e31-4636-a8db-2e7bcf363bd0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class = 'MuiListItemSecondaryAction-root']</value>
+         <value>//a//*[normalize-space() = 'TEST clubavond']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
