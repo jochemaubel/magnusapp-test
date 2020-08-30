@@ -15,11 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
-
-WebUI.click(findTestObject('4. Activiteiten/TEST teamwedstrijd'))
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Daan Aubel'))
 

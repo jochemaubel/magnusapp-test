@@ -17,10 +17,10 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.1b Geen clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d8c8671-fc9e-47d2-8156-b1e3eef1885e</guid>
+      <guid>7fc1128c-19b9-4cb1-a230-49e6277224bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1b Geen ledenoverzicht zien</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.2a Eigen profiel bekijken en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0098a2cf-977a-4a6f-baae-d6006bb40c1c</guid>
@@ -29,10 +29,10 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3b Vanuit profiel naar groepen, niet doorklikken op leden</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fc1128c-19b9-4cb1-a230-49e6277224bf</guid>
+      <guid>9d8c8671-fc9e-47d2-8156-b1e3eef1885e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.2a Eigen profiel bekijken en bewerken</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1b Geen ledenoverzicht zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>365fd588-54cc-47c2-bf58-57047239f68f</guid>
@@ -53,15 +53,9 @@
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.1b Alleen eigen activiteiten zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f661ad6-dc7f-45eb-aca7-b56cb763afe9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.3a Doorklikken naar activiteit</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>12947399-9084-4bb0-97e1-14f593887e11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/4. Activiteiten/4.4b Niet vanuit activiteit doorklikken op lid</testCaseId>
    </testCaseLink>
    <testCaseLink>

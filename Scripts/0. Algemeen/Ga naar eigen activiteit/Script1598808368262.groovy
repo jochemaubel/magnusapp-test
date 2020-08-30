@@ -15,15 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar activiteiten'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('0. Algemeen/Aanmeldknop'))
+switch (GlobalVariable.Email) {
+    case 'lid@schaakclub.nl':
+        WebUI.click(findTestObject('4. Activiteiten/TEST teamwedstrijd'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Huub is aangemeld', false)
+        break
+    case 'hulptrainer@schaakclub.nl':
+        WebUI.click(findTestObject('4. Activiteiten/TEST training'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('0. Algemeen/Aanmeldknop'))
+        break
+    case 'trainer@schaakclub.nl':
+        WebUI.click(findTestObject('4. Activiteiten/TEST training'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Huub is afgemeld', false)
-
-WebUI.closeBrowser()
+        break
+    default:
+        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), FailureHandling.STOP_ON_FAILURE)}
 

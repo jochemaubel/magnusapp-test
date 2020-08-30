@@ -19,7 +19,16 @@ WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url')
 
 WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
 
-WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)
+switch (GlobalVariable.Email) {
+	case 'lid@schaakclub.nl':
+		WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)
+		break
+	case 'hulptrainer@schaakclub.nl':
+		WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST training'), 0)
+		break
+	default:
+		WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)
+}
 
 WebUI.verifyTextNotPresent('TEST activiteit zonder leden', false)
 
