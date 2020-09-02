@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[div/div[2]/span[contains(text(), 'NIEUWE activiteit')]]/div/button[2]</value>
+         <value>//li[div/div[2]/span[contains(text(), 'NIEUWE activiteit')]]/div/button[2]|//li[div/div[2]/span[contains(text(), 'NIEUWE activiteit (bewerkt)')]]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

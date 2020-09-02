@@ -45,9 +45,9 @@ WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('De naam van de training is aangepast', false)
 
-WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training (bewerkt)'))
+WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training'))
 
-WebUI.click(findTestObject('7. Trainingen/NIEUWE training (bewerkt) verwijderen'))
+WebUI.click(findTestObject('7. Trainingen/NIEUWE training verwijderen'))
 
 WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
 

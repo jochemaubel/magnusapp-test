@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div//*[normalize-space()  = 'NIEUWE training']</value>
+         <value>//div//*[normalize-space()  = 'NIEUWE training']|//div//*[normalize-space()  = 'NIEUWE training (bewerkt)']</value>
       </entry>
       <entry>
          <key>BASIC</key>

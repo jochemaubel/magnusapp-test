@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[a/div/p[text()='NIEUWE training']]/div/button[2]</value>
+         <value>//li[a/div/p[text()='NIEUWE training']]/div/button[2]|//li[a/div/p[text()='NIEUWE training (bewerkt)']]/div/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
