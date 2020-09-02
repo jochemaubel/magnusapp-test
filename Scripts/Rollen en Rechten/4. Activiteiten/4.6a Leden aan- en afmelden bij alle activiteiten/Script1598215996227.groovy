@@ -23,11 +23,11 @@ WebUI.click(findTestObject('4. Activiteiten/TEST training'))
 
 WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
 
-WebUI.verifyTextPresent('Huub is aangemeld', false)
+WebUI.verifyTextPresent('Daan is aangemeld', false)
 
 WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
 
-WebUI.verifyTextPresent('Huub is afgemeld', false)
+WebUI.verifyTextPresent('Daan is afgemeld', false)
 
 WebUI.closeBrowser()
 

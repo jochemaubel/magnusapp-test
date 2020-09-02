@@ -146,6 +146,6 @@
       <guid>783939b8-8b2e-4990-853c-a8e7ca4ea2af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a TODO Training toevoegen en eigen training bewerken en verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a Training toevoegen en eigen training bewerken en verwijderen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

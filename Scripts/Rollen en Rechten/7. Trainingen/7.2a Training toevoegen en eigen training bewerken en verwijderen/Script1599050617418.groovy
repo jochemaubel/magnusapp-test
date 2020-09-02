@@ -25,23 +25,33 @@ WebUI.setText(findTestObject('7. Trainingen/Trainingsnaam input'), 'NIEUWE train
 
 WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
 
-not_run: WebUI.click(findTestObject('7. Trainingen/Voeg stelling toe'))
+WebUI.click(findTestObject('7. Trainingen/Voeg stelling toe'))
 
-not_run: WebUI.click(findTestObject('6. Stellingen/Spaans stelling'))
+WebUI.click(findTestObject('7. Trainingen/Checkbox Stelling 3'))
 
-not_run: WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-not_run: WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
+WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
 
 WebUI.click(findTestObject('0. Algemeen/Back Button'))
 
-not_run: WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training'))
+WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training'))
 
-not_run: WebUI.click(findTestObject('7. Trainingen/NIEUWE training verwijderen'))
+WebUI.click(findTestObject('7. Trainingen/NIEUWE training bewerken'))
 
-not_run: WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
+WebUI.setText(findTestObject('7. Trainingen/Trainingsnaam input'), ' (bewerkt)')
 
-not_run: WebUI.verifyTextPresent('De training is verwijderd', false)
+WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+
+WebUI.verifyTextPresent('De naam van de training is aangepast', false)
+
+WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training (bewerkt)'))
+
+WebUI.click(findTestObject('7. Trainingen/NIEUWE training (bewerkt) verwijderen'))
+
+WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
+
+WebUI.verifyTextPresent('De training is verwijderd', false)
 
 WebUI.closeBrowser()
 

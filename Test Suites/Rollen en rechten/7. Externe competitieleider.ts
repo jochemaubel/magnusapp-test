@@ -140,7 +140,7 @@
       <guid>97753ab5-ccaf-4a15-82e5-383448332013</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a TODO Training toevoegen en eigen training bewerken en verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/7. Trainingen/7.2a Training toevoegen en eigen training bewerken en verwijderen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5b9f6c11-f92b-498d-bd62-f34817af8ec5</guid>
