@@ -25,3 +25,5 @@ WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Leo (Lid)'))
 
 WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/Profielpagina Leo'), 0)
 
+WebUI.closeBrowser()
+

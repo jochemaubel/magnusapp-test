@@ -15,6 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-if (WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Registratie'), 2, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (GlobalVariable.Email == 'aanmeldtafel@schaakclub.nl') {
     WebUI.click(findTestObject('5. Aanmeldtafel/Button Lijstweergave'))
 }
