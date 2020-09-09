@@ -29,6 +29,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3a Vanuit profiel naar groepen, kan doorklikken op leden</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>b4768345-3aa9-4711-952b-d5c26bcee653</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.4b Geen Ouders toevoegen en verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>db5f0eb7-f73b-4754-9914-4c86286bb9ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

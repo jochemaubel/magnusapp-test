@@ -41,6 +41,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.4a Detailgegevens en schaakaccounts van leden zien en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a2dbb45b-7069-4620-aa45-25767371c1d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.5a Ouders toevoegen en verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f930498d-07bc-4675-ac80-e3f7766eeb0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
