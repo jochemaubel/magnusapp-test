@@ -19,6 +19,10 @@ WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))
 
 WebUI.setText(findTestObject('3. Groepen/Input Groepsnaam'), Groepsnaam)
 
+WebUI.click(findTestObject('3. Groepen/Locatie dropdown'))
+
+WebUI.click(findTestObject('3. Groepen/Listitem location'))
+
 WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
 
 WebUI.verifyTextPresent(Groepsnaam + ' is toegevoegd', false)
