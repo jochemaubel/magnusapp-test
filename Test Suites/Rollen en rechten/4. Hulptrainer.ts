@@ -23,16 +23,22 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.2a Eigen profiel bekijken en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0098a2cf-977a-4a6f-baae-d6006bb40c1c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3b Vanuit profiel naar groepen, niet doorklikken op leden</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fa686815-c0fe-4192-ba90-7a5381ed2063</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.4b Geen Ouders toevoegen en verwijderen</testCaseId>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.3b Geen Ouders toevoegen en verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0098a2cf-977a-4a6f-baae-d6006bb40c1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.4b Vanuit profiel naar groepen, niet doorklikken op leden</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f5049be-582f-4dcc-9136-8787492a22d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.5a Van profiel naar groep naar activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d8c8671-fc9e-47d2-8156-b1e3eef1885e</guid>

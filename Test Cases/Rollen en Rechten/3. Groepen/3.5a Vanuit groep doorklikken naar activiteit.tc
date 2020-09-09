@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.4b Geen Ouders toevoegen en verwijderen</name>
+   <name>3.5a Vanuit groep doorklikken naar activiteit</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dfa945cd-ce2e-4203-a4fa-28a973d180eb</testCaseGuid>
+   <testCaseGuid>2ab8d625-8419-4dd0-bb2c-b3eb24175574</testCaseGuid>
 </TestCaseEntity>

@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1a. Alle leden in ledenoverzicht zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>28469f81-a186-4985-8e6b-f4da8489195e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.5a Van profiel naar groep naar activiteit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>58175f31-edbd-4ec5-99ed-675572e0bf75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,6 +69,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.4a Vanuit groep doorklikken naar lid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a800b1b5-8b0a-4a5d-b40c-2c13ab66236f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.5a Vanuit groep doorklikken naar activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a8a4485b-56c5-4742-b30a-96d7ddb083b6</guid>
