@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>9c49cbe6-da5d-4ca5-ab6e-f79fc68704fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.2a Eigen profiel bekijken en bewerken</testCaseId>
    </testCaseLink>
    <testCaseLink>
