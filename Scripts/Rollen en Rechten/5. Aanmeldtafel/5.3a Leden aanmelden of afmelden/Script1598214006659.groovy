@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.Email == 'staff@schaakclub.nl') {
-	WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
+    WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
 }
 
 WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
@@ -27,9 +27,25 @@ WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 
 WebUI.verifyTextPresent('Leo is aangemeld', false)
 
+if (GlobalVariable.Email == 'staff@schaakclub.nl') {
+    WebUI.callTestCase(findTestCase('2. Ledenoverzicht/Ga naar profiel Leo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyTextPresent('dagen geleden', false)
+
+    WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
+
+    WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+}
+
 WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 
 WebUI.verifyTextPresent('Leo is afgemeld', false)
+
+if (GlobalVariable.Email == 'staff@schaakclub.nl') {
+    WebUI.callTestCase(findTestCase('2. Ledenoverzicht/Ga naar profiel Leo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyTextNotPresent('dagen geleden', false)
+}
 
 WebUI.closeBrowser()
 

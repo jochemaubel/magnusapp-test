@@ -23,11 +23,33 @@ WebUI.verifyElementPresent(findTestObject('3. Groepen/Begeleider Donald Duck'), 
 
 WebUI.verifyElementPresent(findTestObject('3. Groepen/Speler Bessel Bakker'), 0)
 
-WebUI.callTestCase(findTestCase('3. Groepen/Donald en Bessel aanklikken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0. Algemeen/Back Button'))
+
+WebUI.verifyTextPresent('Donald Duck', false)
+
+WebUI.click(findTestObject('3. Groepen/NIEUWE groep'))
+
+WebUI.mouseOver(findTestObject('2. Ledenoverzicht/ListItem Bessel Bakker'))
+
+WebUI.click(findTestObject('3. Groepen/Archiveer Bessel'))
+
+WebUI.click(findTestObject('0. Algemeen/Archiverenknop'))
+
+WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
+
+WebUI.mouseOver(findTestObject('2. Ledenoverzicht/ListItem Donald Duck'))
+
+WebUI.click(findTestObject('3. Groepen/Archiveer Donald'))
+
+WebUI.click(findTestObject('0. Algemeen/Archiverenknop'))
+
+WebUI.verifyTextPresent('De wijzigingen zijn opgeslagen', false)
 
 WebUI.verifyTextNotPresent('Begeleiders', false)
 
 WebUI.verifyElementPresent(findTestObject('3. Groepen/Speler Bessel Bakker'), 0)
 
 WebUI.click(findTestObject('0. Algemeen/Back Button'))
+
+WebUI.verifyTextPresent('Nog geen begeleiders', false)
 
