@@ -41,6 +41,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.5a Van profiel naar groep naar activiteit</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>7cc8bb2b-f714-4d1c-b3b3-56524187b32b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.6b Geen groepen toevoegen of archiveren</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c1f9199e-6db2-4165-b241-eef8152403c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

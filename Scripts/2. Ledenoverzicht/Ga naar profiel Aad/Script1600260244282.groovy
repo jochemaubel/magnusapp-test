@@ -15,29 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
-WebUI.callTestCase(findTestCase('4. Activiteiten/Naar lijstweergave'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
-
-WebUI.verifyTextPresent('Daan is aangemeld', false)
-
-WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
-
-WebUI.verifyTextPresent('Daan is afgemeld', false)
-
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is afgemeld', false)
-
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is aangemeld', false)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
 

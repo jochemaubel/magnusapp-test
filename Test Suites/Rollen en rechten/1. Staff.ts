@@ -23,12 +23,6 @@
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.1a. Alle leden in ledenoverzicht zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>28469f81-a186-4985-8e6b-f4da8489195e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.5a Van profiel naar groep naar activiteit</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>58175f31-edbd-4ec5-99ed-675572e0bf75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -51,6 +45,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.5a Ouders toevoegen en verwijderen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cfabcf4-d177-40dd-8416-405bab9c83d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/2. Ledenoverzicht/2.6a Groepen toevoegen of archiveren bij profiel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f930498d-07bc-4675-ac80-e3f7766eeb0b</guid>

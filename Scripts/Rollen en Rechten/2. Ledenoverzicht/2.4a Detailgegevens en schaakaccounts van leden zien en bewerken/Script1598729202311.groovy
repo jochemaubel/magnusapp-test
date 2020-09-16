@@ -17,9 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
-
-WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'))
+WebUI.callTestCase(findTestCase('2. Ledenoverzicht/Ga naar profiel Aad'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('1. Profiel/Gegevens lid bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 

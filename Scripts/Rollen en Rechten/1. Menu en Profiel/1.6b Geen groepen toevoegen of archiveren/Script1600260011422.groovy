@@ -15,29 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('4. Activiteiten/Naar lijstweergave'), [:], FailureHandling.STOP_ON_FAILURE)
+switch (GlobalVariable.Email) {
+    case 'aanmeldtafel@schaakclub.nl':
+        WebUI.mouseOver(findTestObject('1. Menu/2. Club/Groepen/TEST clubavond'))
 
-WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
+        WebUI.verifyElementNotPresent(findTestObject('3. Groepen/Archiveer TEST clubavond'), 0)
 
-WebUI.verifyTextPresent('Daan is aangemeld', false)
+        break
+    default:
+        WebUI.mouseOver(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))
 
-WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
+        WebUI.verifyElementNotPresent(findTestObject('3. Groepen/Archiveer TEST trainingsgroep'), 0)}
 
-WebUI.verifyTextPresent('Daan is afgemeld', false)
-
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is afgemeld', false)
-
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is aangemeld', false)
+WebUI.verifyElementNotPresent(findTestObject('1. Profiel/Button Voeg groep toe'), 0)
 
 WebUI.closeBrowser()
 
