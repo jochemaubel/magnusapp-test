@@ -15,21 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/activities'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar App'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen als'), [('email') : 'lid@schaakclub.nl'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST teamwedstrijd'), 0)
+
+WebUI.callTestCase(findTestCase('0. Algemeen/Uitloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3. Groepen/Archiveer Leo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen als'), [('email') : 'lid@schaakclub.nl'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
 
-switch (GlobalVariable.Email) {
-    case 'hulptrainer@schaakclub.nl':
-        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+WebUI.verifyElementNotPresent(findTestObject('4. Activiteiten/TEST teamwedstrijd'), 0)
 
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST training'), 0)
+WebUI.callTestCase(findTestCase('0. Algemeen/Uitloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-        break
-    default:
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)}
+WebUI.callTestCase(findTestCase('3. Groepen/Zet Leo terug'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextNotPresent('TEST activiteit zonder leden', false)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen als'), [('email') : 'lid@schaakclub.nl'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
+
+WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST teamwedstrijd'), 0)
 
 WebUI.closeBrowser()
 

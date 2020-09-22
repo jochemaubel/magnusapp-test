@@ -15,21 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/activities'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('0. Algemeen/Input Email'), email)
 
-WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
+WebUI.setEncryptedText(findTestObject('0. Algemeen/Input wachtwoord'), 'p20GsOAi2SBlgFd1BQ5orQ==')
 
-switch (GlobalVariable.Email) {
-    case 'hulptrainer@schaakclub.nl':
-        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
-
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST training'), 0)
-
-        break
-    default:
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)}
-
-WebUI.verifyTextNotPresent('TEST activiteit zonder leden', false)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('0. Algemeen/Login button'))
 

@@ -23,13 +23,19 @@ switch (GlobalVariable.Email) {
 
         break
     case 'hulptrainer@schaakclub.nl':
+        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+
         WebUI.click(findTestObject('4. Activiteiten/TEST training'), FailureHandling.STOP_ON_FAILURE)
 
         break
     case 'trainer@schaakclub.nl':
+        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+
         WebUI.click(findTestObject('4. Activiteiten/TEST training'), FailureHandling.STOP_ON_FAILURE)
 
         break
     default:
-        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), FailureHandling.STOP_ON_FAILURE)}
+        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag (sub)'))}
 

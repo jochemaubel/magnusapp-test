@@ -15,21 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Geen toegang tot pagina'), [('url') : 'management/activities'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen als'), [('email') : 'staff@schaakclub.nl'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Externe competitie'))
 
-switch (GlobalVariable.Email) {
-    case 'hulptrainer@schaakclub.nl':
-        WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST magnus team'))
 
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST training'), 0)
+WebUI.click(findTestObject('0. Algemeen/Toon of Verberg gearchiveerde'))
 
-        break
-    default:
-        WebUI.verifyElementPresent(findTestObject('4. Activiteiten/TEST clubavond vrijdag'), 0)}
+WebUI.mouseOver(findTestObject('2. Ledenoverzicht/ListItem Leo (Lid)'))
 
-WebUI.verifyTextNotPresent('TEST activiteit zonder leden', false)
+WebUI.click(findTestObject('3. Groepen/Archiveer Leo'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('0. Algemeen/Terugzetten knop'))
+
+WebUI.callTestCase(findTestCase('0. Algemeen/Uitloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 

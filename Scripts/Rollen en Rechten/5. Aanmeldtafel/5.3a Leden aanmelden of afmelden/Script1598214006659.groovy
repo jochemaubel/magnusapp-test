@@ -19,9 +19,13 @@ WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.ST
 
 if (GlobalVariable.Email == 'staff@schaakclub.nl') {
     WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
+
+    WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
 }
 
 WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
+
+WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag (sub)'))
 
 WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 
@@ -40,6 +44,8 @@ if (GlobalVariable.Email == 'staff@schaakclub.nl') {
 WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 
 WebUI.verifyTextPresent('Leo is afgemeld', false)
+
+WebUI.callTestCase(findTestCase('4. Activiteiten/Hidde aan- en afmelden'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.Email == 'staff@schaakclub.nl') {
     WebUI.callTestCase(findTestCase('2. Ledenoverzicht/Ga naar profiel Leo'), [:], FailureHandling.STOP_ON_FAILURE)

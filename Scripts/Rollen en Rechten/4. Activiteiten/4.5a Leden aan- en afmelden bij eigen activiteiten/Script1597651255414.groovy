@@ -27,17 +27,7 @@ WebUI.click(findTestObject('0. Algemeen/Checkbox Daan'))
 
 WebUI.verifyTextPresent('Daan is afgemeld', false)
 
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is afgemeld', false)
-
-WebUI.click(findTestObject('4. Activiteiten/Meerknop Hidde'))
-
-WebUI.click(findTestObject('4. Activiteiten/Listitem aanmelden-afmelden'))
-
-WebUI.verifyTextPresent('Hidde is aangemeld', false)
+WebUI.callTestCase(findTestCase('4. Activiteiten/Hidde aan- en afmelden'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

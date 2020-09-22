@@ -15,9 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar activiteiten'), [:], FailureHandling.STOP_ON_FAILURE)
+switch (GlobalVariable.Email) {
+    case 'hulptrainer@schaakclub.nl':
+        WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('4. Activiteiten/TEST training'))
+        break
+    default:
+        WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar activiteiten'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('4. Activiteiten/TEST training'))}
 
 WebUI.click(findTestObject('4. Activiteiten/Training tab lesstof'), FailureHandling.STOP_ON_FAILURE)
 

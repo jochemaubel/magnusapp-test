@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inloggen als</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e07b617-4027-47ce-b7d4-b6de2a3d0f77</testCaseGuid>
+   <variable>
+      <defaultValue>'staff@schaakclub.nl'</defaultValue>
+      <description></description>
+      <id>e7c705ec-0308-4f58-8fed-3d6e773aa8d5</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

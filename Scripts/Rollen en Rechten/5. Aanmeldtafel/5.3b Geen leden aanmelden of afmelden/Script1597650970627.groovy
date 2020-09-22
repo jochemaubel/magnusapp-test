@@ -21,6 +21,8 @@ WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
 
 WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
 
+WebUI.verifyElementNotPresent(findTestObject('4. Activiteiten/Meerknop Hidde'), 0)
+
 WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 
 WebUI.verifyTextNotPresent('Leo is aangemeld', false)
