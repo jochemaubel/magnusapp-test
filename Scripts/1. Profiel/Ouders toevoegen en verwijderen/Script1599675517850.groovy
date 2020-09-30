@@ -19,7 +19,7 @@ WebUI.click(findTestObject('1. Profiel/Gegevens'))
 
 WebUI.click(findTestObject('1. Profiel/Button ouder toevoegen'))
 
-WebUI.click(findTestObject('1. Profiel/Dropdown ouder selecteren'))
+WebUI.setText(findTestObject('1. Profiel/Dropdown ouder selecteren'), 'Donald Duck')
 
 WebUI.click(findTestObject('1. Profiel/Listitem Ouder Donald Duck'))
 

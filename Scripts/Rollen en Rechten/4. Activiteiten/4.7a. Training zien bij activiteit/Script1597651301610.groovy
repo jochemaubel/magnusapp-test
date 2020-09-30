@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 switch (GlobalVariable.Email) {
     case 'hulptrainer@schaakclub.nl':
+	case 'trainer@schaakclub.nl':
         WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar eigen activiteit'), [:], FailureHandling.STOP_ON_FAILURE)
 
         break

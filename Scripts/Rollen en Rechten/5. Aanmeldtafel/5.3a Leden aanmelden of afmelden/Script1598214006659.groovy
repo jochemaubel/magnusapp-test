@@ -21,11 +21,12 @@ if (GlobalVariable.Email == 'staff@schaakclub.nl') {
     WebUI.click(findTestObject('1. Menu/2. Club/Aanmeldtafel'))
 
     WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
-}
+} else {
 
 WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag'))
 
 WebUI.click(findTestObject('4. Activiteiten/TEST clubavond vrijdag (sub)'))
+}
 
 WebUI.click(findTestObject('5. Aanmeldtafel/Aanmelden Leo (Lid)'))
 

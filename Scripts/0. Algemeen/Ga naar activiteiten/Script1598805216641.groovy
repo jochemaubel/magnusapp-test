@@ -23,6 +23,7 @@ switch (GlobalVariable.Email) {
 	case 'lid@schaakclub.nl':
 	case 'ouder@schaakclub.nl':
 	case 'teamleider@schaakclub.nl':
+	case 'trainer@schaakclub.nl':
         WebUI.click(findTestObject('1. Menu/1. Persoonlijk/Eigen activiteiten'))
 
         break
