@@ -37,3 +37,5 @@ switch (GlobalVariable.Email) {
 
         WebUI.verifyElementPresent(findTestObject('7. Trainingen/TEST training header'), 0)}
 
+WebUI.closeBrowser()
+

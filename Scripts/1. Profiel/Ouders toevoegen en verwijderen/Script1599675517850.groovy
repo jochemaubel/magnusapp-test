@@ -35,7 +35,7 @@ WebUI.click(findTestObject('0. Algemeen/Back Button'))
 
 WebUI.mouseOver(findTestObject('2. Ledenoverzicht/ListItem Donald Duck'))
 
-WebUI.click(findTestObject('1. Profiel/Verwiider ouder'))
+WebUI.click(findTestObject('1. Profiel/Verwijder ouder'))
 
 WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
 

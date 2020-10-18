@@ -48,13 +48,13 @@ WebUI.doubleClick(findTestObject('1. Profiel/Chesskid naam'))
 
 WebUI.sendKeys(findTestObject('1. Profiel/Chesskid naam'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.doubleClick(findTestObject('1. Profiel/Lichess naam'))
-
-WebUI.sendKeys(findTestObject('1. Profiel/Lichess naam'), Keys.chord(Keys.BACK_SPACE))
-
 WebUI.doubleClick(findTestObject('1. Profiel/Lichess token'))
 
 WebUI.sendKeys(findTestObject('1. Profiel/Lichess token'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.doubleClick(findTestObject('1. Profiel/Lichess naam'))
+
+WebUI.sendKeys(findTestObject('1. Profiel/Lichess naam'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
