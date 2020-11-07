@@ -6,12 +6,11 @@
    <elementGuidId>212c5797-48f8-4332-9139-ed2bb46e03fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'MuiContainer-root')]//div[contains(@class, 'infinite-scroll-component')][1]//*[text()='Donald Duck']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class, 'MuiContainer-root')]//ul[1]//*[text()='Donald Duck']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

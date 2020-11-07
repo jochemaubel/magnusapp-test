@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
+WebUI.setText(findTestObject('0. Algemeen/Zoekveld'), 'Leo')
+
 WebUI.click(findTestObject('2. Ledenoverzicht/ListItem Leo (Lid)'))
 
