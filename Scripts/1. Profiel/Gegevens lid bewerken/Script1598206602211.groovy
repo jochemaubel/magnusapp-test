@@ -24,19 +24,11 @@ WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('De gegevens zijn opgeslagen', false)
 
-WebUI.setText(findTestObject('1. Profiel/Postcode'), '1234AB')
-
-WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
-
-WebUI.verifyTextPresent('Vul de straat in', true)
-
-WebUI.verifyTextPresent('Vul het huisnummer in', true)
-
-WebUI.verifyTextPresent('Vul de woonplaats in', true)
-
-WebUI.click(findTestObject('0. Algemeen/Annuleerknop'))
-
 WebUI.setText(findTestObject('1. Profiel/Begin Lidmaatschap'), '01-01-2013')
+
+WebUI.setText(findTestObject('1. Profiel/Bondsnummer'), '1234')
+
+WebUI.setText(findTestObject('1. Profiel/School'), 'Duckschool')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
@@ -44,19 +36,27 @@ WebUI.verifyTextPresent('De gegevens zijn opgeslagen', true)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('1. Profiel/Gegevens'))
-
 WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Tussenvoegsel'), 'value', 'van', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Postcode'), 'value', '', 0)
-
 WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Begin Lidmaatschap'), 'value', '01-01-2013', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Bondsnummer'), 'value', '1234', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/School'), 'value', 'Duckschool', 0)
 
 WebUI.doubleClick(findTestObject('1. Profiel/Tussenvoegsel'))
 
 WebUI.sendKeys(findTestObject('1. Profiel/Tussenvoegsel'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+
+WebUI.doubleClick(findTestObject('1. Profiel/Bondsnummer'))
+
+WebUI.sendKeys(findTestObject('1. Profiel/Bondsnummer'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.mouseOver(findTestObject('1. Profiel/School'))
+
+WebUI.click(findTestObject('0. Algemeen/Dropdown verwijder knop'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1. Profiel/Begin Lidmaatschap'))
 
@@ -65,4 +65,6 @@ for (def i : (1..8)) {
 }
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+
+WebUI.verifyTextPresent('De gegevens zijn opgeslagen', true)
 

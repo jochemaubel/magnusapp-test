@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Machtiging zien en bewerken</name>
+   <name>Adres bewerken</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5793edc8-cd65-4c62-b646-f2aed935b6cf</testCaseGuid>
+   <testCaseGuid>7d357ee4-6ead-4cdd-ad9e-67ffc0b0f518</testCaseGuid>
 </TestCaseEntity>
