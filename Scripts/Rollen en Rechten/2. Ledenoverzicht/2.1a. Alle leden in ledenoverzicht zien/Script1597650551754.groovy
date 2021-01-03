@@ -21,5 +21,17 @@ WebUI.click(findTestObject('1. Menu/2. Club/Ledenoverzicht'))
 
 WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'), 0)
 
-WebUI.verifyTextPresent('Aad (Aanmeldtafel)', false)
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter'))
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter - Trainers'))
+
+WebUI.verifyElementNotPresent(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'), 0)
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter'))
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter - Vrijwilligers'))
+
+WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'), 0)
+
+WebUI.closeBrowser()
 

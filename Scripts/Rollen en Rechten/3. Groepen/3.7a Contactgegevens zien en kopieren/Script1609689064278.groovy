@@ -15,19 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Trainingsgroepen'))
 
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'), 0)
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))
 
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Competitiegroepen'))
+WebUI.verifyTextPresent('katrien@duck.nl', false)
 
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST competitiegroep'), 0)
+WebUI.verifyTextPresent('0612345678', false)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Externe competitie'))
+WebUI.click(findTestObject('3. Groepen/Meer knop'))
 
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST magnus team'), 0)
+WebUI.click(findTestObject('3. Groepen/Listitem kopieer e-mailadressen'))
+
+WebUI.verifyTextPresent('De e-mailadressen zijn gekopieerd naar het klembord', false)
 
 WebUI.closeBrowser()
 

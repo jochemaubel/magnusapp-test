@@ -65,6 +65,18 @@
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.1b Geen groepen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>97ed3cae-3d41-496e-b30d-e1c882db2862</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.6a Videokamers voor groepen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2df01d7a-2f86-487c-bc5a-8b55dcff33ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.7b Geen contactgegevens zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a8324203-6ed3-4677-b53b-adcd6f576394</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

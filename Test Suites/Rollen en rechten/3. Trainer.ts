@@ -95,6 +95,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.4a Vanuit groep doorklikken naar lid</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>c7fee077-03ac-4a97-8804-cfefbf646b46</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.7a Contactgegevens zien en kopieren</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b16aba5a-5a67-4bce-a2e9-0f4270d89639</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

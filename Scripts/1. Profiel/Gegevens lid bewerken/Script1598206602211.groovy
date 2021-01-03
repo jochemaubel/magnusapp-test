@@ -26,9 +26,9 @@ WebUI.verifyTextPresent('De gegevens zijn opgeslagen', false)
 
 WebUI.setText(findTestObject('1. Profiel/Begin Lidmaatschap'), '01-01-2013')
 
-WebUI.setText(findTestObject('1. Profiel/Bondsnummer'), '1234')
-
 WebUI.setText(findTestObject('1. Profiel/School'), 'Duckschool')
+
+WebUI.setText(findTestObject('1. Profiel/Bondsnummer'), '1234')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 

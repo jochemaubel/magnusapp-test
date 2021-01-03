@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Activiteiten historie</name>
+   <name>Tab Afgerond</name>
    <tag></tag>
-   <elementGuidId>faceb2b0-abe3-48c7-820f-b9c571d47737</elementGuidId>
+   <elementGuidId>d093d5e8-0aa8-48cb-b621-7ff560849124</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tab1&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[2]//a//*[normalize-space() = 'Historie']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

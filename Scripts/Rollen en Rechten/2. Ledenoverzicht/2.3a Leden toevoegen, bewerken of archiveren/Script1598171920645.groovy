@@ -27,6 +27,16 @@ WebUI.setText(findTestObject('2. Ledenoverzicht/Achternaam input'), 'BBB')
 
 WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
 
+WebUI.verifyTextPresent('AAA BBB is toegevoegd', false)
+
+WebUI.click(findTestObject('1. Profiel/Rollen - Lid'))
+
+WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
+
+WebUI.verifyTextPresent('De rollen zijn opgeslagen', false)
+
+WebUI.click(findTestObject('0. Algemeen/Back Button'))
+
 WebUI.verifyTextPresent('AAA BBB', false)
 
 WebUI.mouseOver(findTestObject('2. Ledenoverzicht/AAA BBB'))

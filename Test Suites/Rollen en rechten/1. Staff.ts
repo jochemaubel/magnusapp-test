@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>e0731d1b-a24e-4ba7-aaca-f92830861b9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.1a Clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -75,6 +75,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.5a Vanuit groep doorklikken naar activiteit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3cda1dce-bb39-4271-bab9-848ac1adaf71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.7a Contactgegevens zien en kopieren</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a8a4485b-56c5-4742-b30a-96d7ddb083b6</guid>

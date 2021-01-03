@@ -15,19 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Trainingsgroepen'))
+WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))
 
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'), 0)
+WebUI.verifyTextNotPresent('katrien@duck.nl', false)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Competitiegroepen'))
+WebUI.verifyTextNotPresent('0612345678', false)
 
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST competitiegroep'), 0)
-
-WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Externe competitie'))
-
-WebUI.verifyElementPresent(findTestObject('1. Menu/2. Club/Groepen/TEST magnus team'), 0)
+WebUI.verifyElementNotPresent(findTestObject('3. Groepen/Meer knop'), 0)
 
 WebUI.closeBrowser()
 

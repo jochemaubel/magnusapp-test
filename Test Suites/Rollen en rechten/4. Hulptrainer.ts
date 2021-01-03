@@ -65,6 +65,12 @@
       <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.1b Geen groepen zien</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>7da8454e-03ef-4e71-a4a4-414748751488</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rollen en Rechten/3. Groepen/3.7b Geen contactgegevens zien</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9afb5729-050d-47dc-8d7b-91622d4e4b65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
