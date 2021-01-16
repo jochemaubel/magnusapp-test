@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MemberRoleFilter - Vrijwilligers</name>
+   <name>Status lidmaatschap</name>
    <tag></tag>
-   <elementGuidId>76bc7f88-5a52-4739-bf78-7d76429df48b</elementGuidId>
+   <elementGuidId>199be283-918b-4a43-9dbe-31a298bc82f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@data-option-index = '5']</value>
+         <value>//*[@name=&quot;memberStatus&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

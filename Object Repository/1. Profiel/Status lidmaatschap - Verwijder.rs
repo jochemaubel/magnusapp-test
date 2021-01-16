@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MemberRoleFilter - Vrijwilligers</name>
+   <name>Status lidmaatschap - Verwijder</name>
    <tag></tag>
-   <elementGuidId>76bc7f88-5a52-4739-bf78-7d76429df48b</elementGuidId>
+   <elementGuidId>a7bc1ea6-36fa-4b8c-bd64-e3dc0e41eea4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@data-option-index = '5']</value>
+         <value>//*[@name='memberStatus']/following::button[@title='Clear']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

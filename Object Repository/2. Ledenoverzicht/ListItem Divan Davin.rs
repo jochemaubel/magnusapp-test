@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MemberRoleFilter - Vrijwilligers</name>
+   <name>ListItem Divan Davin</name>
    <tag></tag>
-   <elementGuidId>76bc7f88-5a52-4739-bf78-7d76429df48b</elementGuidId>
+   <elementGuidId>34a39a78-9e4b-447f-bbcd-907a3dcfc420</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@data-option-index = '5']</value>
+         <value>//li//*[normalize-space() = &quot;Divan Davin&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

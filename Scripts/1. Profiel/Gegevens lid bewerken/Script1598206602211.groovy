@@ -30,6 +30,10 @@ WebUI.setText(findTestObject('1. Profiel/School'), 'Duckschool')
 
 WebUI.setText(findTestObject('1. Profiel/Bondsnummer'), '1234')
 
+WebUI.click(findTestObject('1. Profiel/Status lidmaatschap'))
+
+WebUI.click(findTestObject('1. Profiel/Status lidmaatschap - Wachtlijst'))
+
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
 WebUI.verifyTextPresent('De gegevens zijn opgeslagen', true)
@@ -44,6 +48,8 @@ WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Bondsnummer'), 'val
 
 WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/School'), 'value', 'Duckschool', 0)
 
+WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Status lidmaatschap'), 'value', 'wachtlijst', 0)
+
 WebUI.doubleClick(findTestObject('1. Profiel/Tussenvoegsel'))
 
 WebUI.sendKeys(findTestObject('1. Profiel/Tussenvoegsel'), Keys.chord(Keys.BACK_SPACE))
@@ -56,7 +62,11 @@ WebUI.sendKeys(findTestObject('1. Profiel/Bondsnummer'), Keys.chord(Keys.BACK_SP
 
 WebUI.mouseOver(findTestObject('1. Profiel/School'))
 
-WebUI.click(findTestObject('0. Algemeen/Dropdown verwijder knop'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1. Profiel/School - Verwijder'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('1. Profiel/Status lidmaatschap'))
+
+WebUI.click(findTestObject('1. Profiel/Status lidmaatschap - Verwijder'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1. Profiel/Begin Lidmaatschap'))
 

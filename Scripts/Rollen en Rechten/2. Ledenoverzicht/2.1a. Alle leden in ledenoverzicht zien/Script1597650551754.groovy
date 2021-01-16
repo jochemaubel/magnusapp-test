@@ -33,5 +33,17 @@ WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter - Vrijwilligers')
 
 WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/ListItem Aad (Aanmeldtafel)'), 0)
 
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter'))
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter - Proefleden'))
+
+WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/ListItem Grote Smurf'), 0)
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter'))
+
+WebUI.click(findTestObject('2. Ledenoverzicht/MemberRoleFilter - Wachtlijst'))
+
+WebUI.verifyElementPresent(findTestObject('2. Ledenoverzicht/ListItem Divan Davin'), 0)
+
 WebUI.closeBrowser()
 
