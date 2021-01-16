@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('1. Profiel/Geen machtiging zien en bewerken'), 
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('2. Ledenoverzicht/Ga naar profiel Aad'), [:], F
 
 WebUI.callTestCase(findTestCase('1. Profiel/Gegevens lid bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('1. Profiel/Adres bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Adres bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('1. Profiel/Machtiging bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Machtiging bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToPosition(0, 0)
 
-not_run: WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
