@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Schaakstellingen'))
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar schaakstellingen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.Email == 'trainer@schaakclub.nl') {
     WebUI.mouseOver(findTestObject('6. Stellingen/TEST stelling'))
@@ -35,13 +35,11 @@ if (GlobalVariable.Email == 'trainer@schaakclub.nl') {
     WebUI.verifyElementPresent(findTestObject('6. Stellingen/TEST stelling'), 0)
 }
 
-WebUI.mouseOver(findTestObject('6. Stellingen/Spaans stelling'))
+WebUI.click(findTestObject('6. Stellingen/Spaans stelling'))
 
-WebUI.verifyElementNotPresent(findTestObject('6. Stellingen/Tooltip'), 0)
+WebUI.verifyElementPresent(findTestObject('6. Stellingen/Schaakbord'), 0)
 
-WebUI.click(findTestObject('6. Stellingen/Spaans stelling bekijken'))
-
-WebUI.verifyElementPresent(findTestObject('6. Stellingen/Tooltip'), 0)
+WebUI.click(findTestObject('0. Algemeen/Close button'))
 
 WebUI.closeBrowser()
 

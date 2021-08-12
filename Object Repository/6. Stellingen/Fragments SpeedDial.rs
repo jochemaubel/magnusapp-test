@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Trainingen</name>
+   <name>Fragments SpeedDial</name>
    <tag></tag>
-   <elementGuidId>fbb4aae7-b15f-4123-9380-125975cbcf10</elementGuidId>
+   <elementGuidId>9ae53b52-f85b-4ce2-9935-9b884300d770</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a//*[normalize-space() = 'Trainingen']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@aria-label='FragmentsSpeedDial']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

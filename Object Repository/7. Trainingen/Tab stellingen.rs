@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Trainingen</name>
+   <name>Tab stellingen</name>
    <tag></tag>
-   <elementGuidId>fbb4aae7-b15f-4123-9380-125975cbcf10</elementGuidId>
+   <elementGuidId>def6fc62-19f8-4b93-b88d-919daf6fc7f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a//*[normalize-space() = 'Trainingen']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button//*[normalize-space() = 'Stellingen']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

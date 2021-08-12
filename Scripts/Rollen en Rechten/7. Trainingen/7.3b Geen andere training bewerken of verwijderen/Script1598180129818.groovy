@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Trainingen'))
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar trainingen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('7. Trainingen/Koningsaanval training'))
 

@@ -17,13 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Trainingen'))
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar trainingen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))
 
 WebUI.setText(findTestObject('7. Trainingen/Trainingsnaam input'), 'NIEUWE training')
 
 WebUI.click(findTestObject('0. Algemeen/Toevoegenknop'))
+
+WebUI.click(findTestObject('7. Trainingen/Tab stellingen'))
 
 WebUI.click(findTestObject('7. Trainingen/Voeg stelling toe'))
 
@@ -43,7 +45,7 @@ WebUI.setText(findTestObject('7. Trainingen/Trainingsnaam input'), ' (bewerkt)')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-WebUI.verifyTextPresent('De naam van de training is aangepast', false)
+WebUI.verifyTextPresent('De training is aangepast', false)
 
 WebUI.mouseOver(findTestObject('7. Trainingen/NIEUWE training'))
 

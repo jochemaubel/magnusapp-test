@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul//ul//li//*[normalize-space() = 'TEST clubavond vrijdag']
+         <value>//ul//li//*[normalize-space() = 'TEST clubavond vrijdag']
 </value>
       </entry>
    </selectorCollection>

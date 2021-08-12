@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Trainingen</name>
+   <name>Stelling toevoegen</name>
    <tag></tag>
-   <elementGuidId>fbb4aae7-b15f-4123-9380-125975cbcf10</elementGuidId>
+   <elementGuidId>0234b363-7588-4b12-80d2-623dcbcb97bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a//*[normalize-space() = 'Trainingen']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@title=&quot;Voeg fragment toe&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

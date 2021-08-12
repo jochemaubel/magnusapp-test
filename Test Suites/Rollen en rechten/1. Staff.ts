@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>e0731d1b-a24e-4ba7-aaca-f92830861b9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rollen en Rechten/1. Menu en Profiel/1.1a Clubmenu zien</testCaseId>
    </testCaseLink>
    <testCaseLink>

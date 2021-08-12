@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Trainingen</name>
+   <name>TrainingenMenu</name>
    <tag></tag>
-   <elementGuidId>fbb4aae7-b15f-4123-9380-125975cbcf10</elementGuidId>
+   <elementGuidId>5e336e33-3fdb-4933-9fc1-50fed1fe4df2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a//*[normalize-space() = 'Trainingen']</value>
+         <value>//span[normalize-space() = 'Trainingen']</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -26,7 +26,7 @@ WebUI.click(findTestObject('4. Activiteiten/Kies een training - Koningsaanval'))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-WebUI.click(findTestObject('0. Algemeen/FAB Bewerken'))
+WebUI.click(findTestObject('4. Activiteiten/Wijzig training'))
 
 WebUI.mouseOver(findTestObject('4. Activiteiten/Kies een training dropdown'), FailureHandling.STOP_ON_FAILURE)
 

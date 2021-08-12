@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a//*[normalize-space() = 'Schaakstellingen']</value>
+         <value>//a//*[normalize-space() = 'Schaakfragmenten']</value>
       </entry>
       <entry>
          <key>BASIC</key>

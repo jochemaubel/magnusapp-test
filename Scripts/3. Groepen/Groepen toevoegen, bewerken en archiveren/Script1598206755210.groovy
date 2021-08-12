@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('1. Menu/2. Club/GroepenMenu'))
+
 WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Competitiegroepen'))
 
 WebUI.callTestCase(findTestCase('3. Groepen/Groep toevoegen'), [('Groepsnaam') : 'NIEUWE groep'], FailureHandling.STOP_ON_FAILURE)

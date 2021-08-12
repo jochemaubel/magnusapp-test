@@ -14,17 +14,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('1. Profiel/Naar profiel'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('1. Profiel/Gegevens lid bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1. Menu/2. Club/TrainingenMenu'))
 
-WebUI.callTestCase(findTestCase('1. Profiel/Geen machtiging zien en bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.callTestCase(findTestCase('1. Profiel/Schaakaccounts bewerken'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('1. Menu/2. Club/Trainingen'))
 

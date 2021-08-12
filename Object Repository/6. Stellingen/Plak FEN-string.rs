@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button//*[normalize-space()='Plak FEN-string']</value>
+         <value>//button//*[normalize-space()='Plak FEN of PGN']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

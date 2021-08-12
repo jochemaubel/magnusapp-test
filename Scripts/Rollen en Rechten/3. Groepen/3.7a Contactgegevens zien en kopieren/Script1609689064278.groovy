@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1. Menu/2. Club/GroepenMenu'))
+
 WebUI.click(findTestObject('1. Menu/2. Club/Groepen/Trainingsgroepen'))
 
 WebUI.click(findTestObject('1. Menu/2. Club/Groepen/TEST trainingsgroep'))

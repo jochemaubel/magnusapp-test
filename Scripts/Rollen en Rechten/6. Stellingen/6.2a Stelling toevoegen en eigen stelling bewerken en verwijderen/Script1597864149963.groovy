@@ -16,11 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar schaakstellingen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. Menu/2. Club/Schaakstellingen'))
+WebUI.click(findTestObject('6. Stellingen/Fragments SpeedDial'))
 
-WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))
+WebUI.click(findTestObject('6. Stellingen/Stelling toevoegen'))
 
 WebUI.setText(findTestObject('6. Stellingen/Training titel'), 'NIEUWE stelling')
 
@@ -32,15 +32,17 @@ WebUI.click(findTestObject('0. Algemeen/Toepassenknop'))
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-WebUI.verifyTextPresent('De stelling is opgeslagen.', false)
+WebUI.verifyTextPresent('Het fragment is opgeslagen.', false)
 
-WebUI.click(findTestObject('6. Stellingen/NIEUWE stelling'))
+WebUI.mouseOver(findTestObject('6. Stellingen/NIEUWE stelling'))
+
+WebUI.click(findTestObject('6. Stellingen/Nieuwe stelling bewerken'))
 
 WebUI.setText(findTestObject('6. Stellingen/Training titel'), ' (bewerkt)')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
-WebUI.verifyTextPresent('De stelling is opgeslagen.', false)
+WebUI.verifyTextPresent('Het fragment is opgeslagen.', false)
 
 WebUI.mouseOver(findTestObject('6. Stellingen/BEWERKTE stelling'))
 
@@ -48,7 +50,7 @@ WebUI.click(findTestObject('6. Stellingen/Bewerkte stelling verwijderen'))
 
 WebUI.click(findTestObject('0. Algemeen/Verwijderknop'))
 
-WebUI.verifyTextPresent('De stelling is verwijderd.', false)
+WebUI.verifyTextPresent('Het fragment is verwijderd.', false)
 
 WebUI.closeBrowser()
 
