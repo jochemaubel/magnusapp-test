@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div//*[normalize-space() = 'TEST training']</value>
+         <value>//div//*[normalize-space() = 'TEST training' or normalize-space() = 'Geen training geselecteerd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

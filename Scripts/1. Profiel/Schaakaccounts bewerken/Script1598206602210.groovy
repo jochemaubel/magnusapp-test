@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('1. Profiel/Chesskid naam'), 'ChessKidAccount')
 
 WebUI.setText(findTestObject('1. Profiel/Lichess naam'), 'LichessAccount')
 
-WebUI.setText(findTestObject('1. Profiel/Lichess token'), 'LichessToken')
+not_run: WebUI.setText(findTestObject('1. Profiel/Lichess token'), 'LichessToken')
 
 WebUI.click(findTestObject('0. Algemeen/Opslaanknop'))
 
@@ -38,7 +38,7 @@ WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Chesskid naam'), 'v
 
 WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Lichess naam'), 'value', 'LichessAccount', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Lichess token'), 'value', 'LichessToken', 0)
+not_run: WebUI.verifyElementAttributeValue(findTestObject('1. Profiel/Lichess token'), 'value', 'LichessToken', 0)
 
 WebUI.doubleClick(findTestObject('1. Profiel/Chesscom naam'))
 
@@ -48,9 +48,9 @@ WebUI.doubleClick(findTestObject('1. Profiel/Chesskid naam'))
 
 WebUI.sendKeys(findTestObject('1. Profiel/Chesskid naam'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.doubleClick(findTestObject('1. Profiel/Lichess token'))
+not_run: WebUI.doubleClick(findTestObject('1. Profiel/Lichess token'))
 
-WebUI.sendKeys(findTestObject('1. Profiel/Lichess token'), Keys.chord(Keys.BACK_SPACE))
+not_run: WebUI.sendKeys(findTestObject('1. Profiel/Lichess token'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.doubleClick(findTestObject('1. Profiel/Lichess naam'))
 

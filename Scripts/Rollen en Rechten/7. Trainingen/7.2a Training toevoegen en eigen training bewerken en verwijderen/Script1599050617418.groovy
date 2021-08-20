@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('0. Algemeen/Inloggen'), [('url') : ''], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('0. Algemeen/Ga naar trainingen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'))

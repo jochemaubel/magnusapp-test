@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Activiteiten']</value>
+         <value>//span[text()='Activiteiten' or text()='Trainingsschema']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

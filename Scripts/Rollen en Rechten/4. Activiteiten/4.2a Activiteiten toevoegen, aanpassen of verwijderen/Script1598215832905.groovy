@@ -23,7 +23,9 @@ WebUI.verifyElementPresent(findTestObject('4. Activiteiten/Bewerk TEST clubavond
 
 WebUI.verifyElementPresent(findTestObject('4. Activiteiten/Verwijder TEST clubavond vrijdag'), 0)
 
-WebUI.click(findTestObject('0. Algemeen/FAB Toevoegen'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('4. Activiteiten/AddActivitySpeedDial'))
+
+WebUI.click(findTestObject('4. Activiteiten/Activiteit toevoegen'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('4. Activiteiten/Input Activiteitnaam'), 'NIEUWE activiteit')
 
@@ -33,7 +35,7 @@ WebUI.click(findTestObject('4. Activiteiten/Type activitiveit Interne competitie
 
 WebUI.setText(findTestObject('4. Activiteiten/Input Starttijd'), '19:00')
 
-WebUI.click(findTestObject('4. Activiteiten/Tab Groepen'))
+WebUI.click(findTestObject('4. Activiteiten/Input Groep'))
 
 WebUI.click(findTestObject('4. Activiteiten/Groep D1'))
 

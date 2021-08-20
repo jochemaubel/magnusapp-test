@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Groep D1</name>
+   <name>AddActivitySpeedDial</name>
    <tag></tag>
-   <elementGuidId>e10af1df-7e50-47cd-8bf6-8dd93af4db18</elementGuidId>
+   <elementGuidId>ea19eb93-6477-4e3c-8cf7-ec76a726fa4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@data-option-index = '4']</value>
+         <value>//*[@aria-label='AddActivitySpeedDial']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
